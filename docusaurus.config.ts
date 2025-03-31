@@ -37,6 +37,12 @@ const config: Config = {
       {
         docs: {
           sidebarPath: false, 
+          // sidebarPath: './sidebars.ts',
+          path: 'paths', // Your custom doc folder
+          routeBasePath: 'paths', // The URL path for docs
+          // Add this line to hide the sidebar
+          // hideable: true,
+          // autoCollapseCategories: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -74,7 +80,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: 'paths', label: 'All Paths', position: 'right'},
+        {to: '/paths', label: 'All Paths', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
