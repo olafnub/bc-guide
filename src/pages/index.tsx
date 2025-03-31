@@ -20,9 +20,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/paths">
+            View Full Curriculum
           </Link>
+        </div>
+        <div>
+          <h3>Note: This curriculum, website, and design is HEAVILY inspired by The Odin Project,
+            an open source program about web dev with hands on learning and over X maintainers,
+            from the industry & begineer open source contributors.
+          </h3>
         </div>
       </div>
     </header>
@@ -33,8 +39,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="A quick guide to learning about web3, blockchain, crypto with articles and videos.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

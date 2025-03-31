@@ -11,32 +11,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Basics',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn the basics of blockchain and web3 through an online curriculum with 
+        online reading lists, videos, and tips to further your education.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Interest',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Find the interest and path you want to head into after taking the foundation course. 
+        Paths involve finance, law, coding, hiring, marketing, and etc. There's an endless 
+        amount of <code>opportunities</code> in web3.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Community',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You're not alone, join the community of learners from 
+        beginners to experienced in this growing field all around the world!
       </>
     ),
   },
