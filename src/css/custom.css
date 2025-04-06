@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /* --ifm-color-primary: #ed7231; */
   --ifm-color-primary: #1B4D3E;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,6 +16,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --assignment-box-primary: oklch(0.967 0.003 264.542);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -25,19 +27,23 @@
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary-lightest: gray;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --assignment-box-primary: #282A36;
 }
 
 h2 {
   margin: 0;
   padding: 0;
 }
+p a, .lesson-content__conclusion a, .lesson-content__panel a {
+  color: var(--ifm-color-primary-light) !important;
+}
 
-li, ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.container img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 
 /* 
@@ -85,4 +91,35 @@ Using my own tailwind since I don't want it to mess up what Docusaurus is using 
 }
 .background--hover:hover {
   background-color: var(--ifm-color-emphasis-100);
+}
+
+.list--unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lesson-content__panel {
+  background-color: var(--assignment-box-primary);
+  padding: 16px;
+}
+
+.courseLink {
+  display: block;
+  padding: 12px 16px;
+  color: var(--ifm-color-primary);
+  border-radius: 4px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.courseLink:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Infima Configuration */
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary-light) !important;
 }

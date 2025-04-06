@@ -2,30 +2,23 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
-  title: 'The Blockchain Guide',
+  title: 'Brain Eater',
   tagline: '(with semi-quick assignments)',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://braineater.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'braineater', // Update to your GitHub org/user name if applicable
+  projectName: 'braineater', // Update to your repo name if applicable
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -36,17 +29,12 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: false, 
-          // sidebarPath: './sidebars.ts',
-          path: 'paths', // Your custom doc folder
-          routeBasePath: 'paths', // The URL path for docs
-          // Add this line to hide the sidebar
-          // hideable: true,
-          // autoCollapseCategories: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          sidebarPath: false,
+          breadcrumbs: true,
+          path: 'paths',
+          routeBasePath: 'paths',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/braineater/braineater/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -54,11 +42,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+            'https://github.com/braineater/braineater/tree/main/packages/create-docusaurus/templates/shared/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -71,22 +56,16 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'The Blockchain Guide',
+      title: 'BrainEater',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'BrainEater Logo',
         src: 'img/logo.svg',
       },
       items: [
         {to: '/paths', label: 'All Paths', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
       ],
     },
     footer: {
@@ -127,12 +106,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/braineater/braineater',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} UMN Blockchain, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BrainEater, Built with Docusaurus & Dotown Design Room.`,
     },
     prism: {
       theme: prismThemes.github,

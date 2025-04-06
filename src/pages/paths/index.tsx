@@ -13,7 +13,7 @@ export default function AllPaths() {
                             <div className="card__image flex-row justify-around align-center">
                                 <div className="flex-row align-center gap-2">
                                     <img
-                                        src="https://www.theodinproject.com/assets/badge-foundations-fc89cdc6.svg"
+                                        src="https://dotown.maeda-design-room.net/wp-content/uploads/2023/01/plant_sakura_01.png"
                                         alt="Blockchain Basics"
                                         title="Blockchain Basics"
                                     />
@@ -40,7 +40,7 @@ export default function AllPaths() {
                         <div className="card shadow--md">
                             <div className="card__image">
                                 <img
-                                    src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                                    src="https://dotown.maeda-design-room.net/wp-content/uploads/2022/01/town_vendingmachine_01.png"
                                     alt="Blockchain Exploration"
                                     title="Blockchain Exploration"
                                 />
@@ -52,7 +52,7 @@ export default function AllPaths() {
                                 </p>
                             </div>
                             <div className="card__footer">
-                                <button className="button button--primary button--block">Explore</button>
+                                <button className="button button--primary button--block" disabled>Coming...</button>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default function AllPaths() {
                         <div className="card shadow--md">
                             <div className="card__image">
                                 <img
-                                    src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                                    src="https://dotown.maeda-design-room.net/wp-content/uploads/2022/01/town_planet_01.png"
                                     alt="Advanced Topics"
                                     title="Advanced Topics"
                                 />
@@ -72,7 +72,7 @@ export default function AllPaths() {
                                 </p>
                             </div>
                             <div className="card__footer">
-                                <button className="button button--primary button--block">Explore</button>
+                                <button className="button button--primary button--block" disabled>Coming...</button>
                             </div>
                         </div>
                     </div>
