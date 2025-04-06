@@ -1,3 +1,18 @@
+olafnub:
+  name: Andy
+  title: Student @ University of Minnesota
+  url: https://github.com/olafnub
+  image_url: https://github.com/olafnub.png
+  page: 
+    true
+    # customize the url of the author page at /blog/authors/<permalink>
+    # permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: 360beez
+    github: olafnub
+    # linkedin: andyli2026
+    # newsletter: https://thisweekinreact.com
+
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook

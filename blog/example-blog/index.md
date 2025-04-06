@@ -1,7 +1,7 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
+slug: example
+title: Example
+authors: [olafnub]
 tags: [facebook, hello, docusaurus]
 ---
 
