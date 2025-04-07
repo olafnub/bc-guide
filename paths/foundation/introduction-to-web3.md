@@ -84,7 +84,6 @@ Web3 is important because it:
 
 ### Additional Resources
 
-- [Web3 Foundation](https://web3.foundation/)
-- [Ethereum.org - Web3](https://ethereum.org/en/web3/)
-- [The Web3 Index](https://web3index.org/)
-- [Web3 University](https://www.web3.university/)
+- [Jump's crypto resources](https://jumpcrypto.github.io/crypto-reading-list/index.html)
+- [Ethereum's explanation of web3](https://ethereum.org/en/web3/)
+- [Web3 University](https://www.web3.university/), not 100% useful but it does provide great resources for the industry

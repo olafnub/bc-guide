@@ -5,7 +5,7 @@ authors: [olafnub]
 tags: [first-post]
 ---
 
-More info below! Excited to see you here :)
+A blog section dedicated for community posts; you can post blogs on here! More info below, Excited to see you here :)
 
 <!-- truncate -->
 

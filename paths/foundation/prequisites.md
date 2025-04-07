@@ -8,4 +8,6 @@ pagination_next: foundation/learn-blockchain-basics
 
 ### Introduction & Conclusion
 
+![Example banner](../../static/img/daw.svg)
+
 There are no rerequisites for this course as all the assignments from this journal will just be articles, readings, and youtube videos.

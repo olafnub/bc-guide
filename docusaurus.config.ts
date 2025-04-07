@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import 'dotenv/config';
 
 const config: Config = {
   title: 'Brain Eater',
@@ -11,6 +12,12 @@ const config: Config = {
   url: 'https://braineater.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
+
+  customFields: {
+    serviceId: process.env.SERVICE_ID,
+    templateId: process.env.TEMPLATE_ID,
+    emailJsPubKey: process.env.EMAILJS_PUB_KEY,
+  },
 
   // GitHub pages deployment config.
   organizationName: 'braineater', // Update to your GitHub org/user name if applicable
@@ -64,6 +71,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: '/create-a-post', label: 'Create Post', position: 'right'},
         {to: '/paths', label: 'All Paths', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
       ],

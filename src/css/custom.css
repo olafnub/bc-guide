@@ -40,7 +40,7 @@ p a, .lesson-content__conclusion a, .lesson-content__panel a {
   color: var(--ifm-color-primary-light) !important;
 }
 
-.container img {
+.card__image img {
   width: 200px;
   height: 200px;
   object-fit: contain;

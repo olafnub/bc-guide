@@ -10,26 +10,26 @@ export default function AllPaths() {
                 <div className="row margin-bottom--lg">
                     <div className="col col--12">
                         <div className="card shadow--md padding-1">
-                            <div className="card__image flex-row justify-around align-center">
-                                <div className="flex-row align-center gap-2">
-                                    <img
-                                        src="https://dotown.maeda-design-room.net/wp-content/uploads/2023/01/plant_sakura_01.png"
-                                        alt="Blockchain Basics"
-                                        title="Blockchain Basics"
-                                    />
-                                    <h2>Blockchain Basics</h2>
-                                </div>
-                                <a href="/paths/foundation">
-                                    <button className="button button--primary button--block padding-horiz--lg padding-vert--md">Explore</button>
-                                </a>
+                            <div className="card__image">
+                                <img
+                                    src="https://dotown.maeda-design-room.net/wp-content/uploads/2023/01/plant_sakura_01.png"
+                                    alt="Blockchain Basics"
+                                    title="Blockchain Basics"
+                                />
                             </div>
-                            <div className="card__body border-top-2 margin-1">
+                            <div className="card__body">
+                                <h2>Blockchain Basics</h2>
                                 <p>
                                     The foundation course is not to teach you A-Z of what blockchain and web3 is but instead 
                                     to give you a quick overview of what topics you'll come across in the future, and to also
                                     familiarize you with terms used in the industry. Learning the foundation will help you with more
                                     niche topics in the future.
                                 </p>
+                            </div>
+                            <div className="card__footer">
+                                <a href="/paths/foundation">
+                                    <button className="button button--primary button--block padding-horiz--lg padding-vert--md">Explore</button>
+                                </a>
                             </div>
                         </div>
                     </div>

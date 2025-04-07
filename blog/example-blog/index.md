@@ -1,7 +1,7 @@
 ---
 slug: example-post
 title: Example-Post
-authors: [olafnub]
+authors: [yangshun, slorber]
 tags: [first-post]
 ---
 
