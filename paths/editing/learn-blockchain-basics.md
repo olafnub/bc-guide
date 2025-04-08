@@ -95,3 +95,8 @@ Key characteristics:
 - [Blockchain Explained by Investopedia](https://www.investopedia.com/terms/b/blockchain.asp)
 - [Blockchain Technology Overview by Consensys](https://consensys.net/blockchain-use-cases/)
 - [Blockchain for Beginners by Binance Academy](https://academy.binance.com/en/articles/blockchain-for-beginners)
+
+# Blockchain Explorers
+As much as blockchain is about transparency, there's no way you can read this photo and think, that's pretty transparent & I know what each of the terms mean! *Pulled this picture from Paradigm's research slide on (TradFi wanting to adopt web3)[https://www.paradigm.xyz/2025/03/tradfi-tomorrow-defi-and-the-rise-of-extensible-finance].*
+
+![Ethereum transaction on a blockchain explorer](/img/blockchain-scanner.png)
