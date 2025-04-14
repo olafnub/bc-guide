@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Introduction",
+    "courses": [
+      {
+        "href": "/paths/foundation/how-this-course-will-work",
+        "courseTitle": "How This Course Will Work"
+      },
+      {
+        "href": "/paths/foundation/introduction-to-web3",
+        "courseTitle": "Introduction to Web3"
+      },
+      {
+        "href": "/paths/foundation/bitcoin-hash-encrypt",
+        "courseTitle": "Where It All Started: Bitcoin"
+      }
+    ]
+  },
+  {
+    "title": "Blockchain Fundamentals",
+    "courses": [
+      {
+        "href": "/paths/foundation/learn-blockchain-basics",
+        "courseTitle": "Blockchain Basics"
+      },
+      {
+        "href": "/paths/foundation/crypto-wallets",
+        "courseTitle": "Intro to Web3 Wallets"
+      },
+      {
+        "href": "/paths/foundation/what-are-cryptocurrencies",
+        "courseTitle": "What Are Cryptocurrencies?"
+      },
+      {
+        "href": "/paths/foundation/sending-and-receiving-crypto",
+        "courseTitle": "Transactions on the Blockchain"
+      }
+    ]
+  },
+  {
+    "title": "Wrap Up",
+    "courses": [
+      {
+        "href": "/paths/foundation/intro-to-ethereum",
+        "courseTitle": "Ethereum Alters the Web3 Industry"
+      },
+      {
+        "href": "/paths/foundation/modern-blockchains-2020s",
+        "courseTitle": "Modern Blockchain (2020s to now)"
+      },
+      {
+        "href": "/paths/foundation/career-in-web3",
+        "courseTitle": "A Career in Web3"
+      }
+    ]
+  }
+]

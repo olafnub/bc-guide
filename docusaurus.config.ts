@@ -83,8 +83,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Get Started',
+              to: '/paths/foundation/how-this-course-will-work',
             },
           ],
         },
@@ -92,16 +92,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'CollegeDAO Telegram',
+              href: 'https://t.me/collegedao',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'CollegeDAO X',
+              href: 'https://x.com/collegedao_hub',
             },
           ],
         },

@@ -1,5 +1,9 @@
 first-post:
   label: firsts
-  permalink: /first-post
+  permalink: /first-posts
   description: Sharing first posts on this platform
 
+guide-post:
+  label: guides
+  permalink: /guide-posts
+  description: Industry or hobby related guides
