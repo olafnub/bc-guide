@@ -5,16 +5,42 @@ import Layout from '@theme/Layout';
 import BlogPageExample from '@site/src/components/BlogPageExample';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
+interface CustomFields {
+  serviceId: string;
+  templateId: string;
+  emailJsPubKey: string;
+}
+
 const CreatePost = () => {
-    const { siteConfig: { customFields } } = useDocusaurusContext();
+    const { siteConfig } = useDocusaurusContext();
+    const { serviceId, templateId, emailJsPubKey } = siteConfig.customFields as unknown as CustomFields;
 
     const inputContent = useRef<HTMLFormElement | null>(null);
+
+    // https://www.emailjs.com/docs/sdk/send/
+    const options = {
+      publicKey: emailJsPubKey,
+      blockHeadless: true, // Do not allow headless browsers
+      // blockList: {
+      //   list: ['foo@emailjs.com', 'bar@emailjs.com'], // Block the suspended emails
+      //   watchVariable: 'userEmail', // The variable contains the email address
+      // },
+      limitRate: {
+        id: serviceId, // Set the limit rate for the application
+        throttle: 10000, // Allow 1 request per 10s
+      }
+    }
 
     const handleFormSubmission = (e: React.FormEvent) => {
         e.preventDefault();
 
-        emailjs
-            .sendForm(customFields.serviceId, customFields.templateId, inputContent.current, customFields.emailJsPubKey)
+        emailjs.sendForm
+            (
+              serviceId, 
+              templateId, 
+              inputContent.current, 
+              options
+            )
             .then(
             () => {
                 console.log('SUCCESS!');
