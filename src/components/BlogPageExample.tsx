@@ -11,11 +11,12 @@ const BlogPageExample = () => {
         <hr />
 
         <p>Please include you (author), title, and any tags you'd like. Copy and paste this into your content section</p>
-        <p><code>
-            Author (email/github/linkedin):
-            Title:
-            Tags (optional):
-        </code>
+        <p>
+          <ul>
+            <li>Author (email/github/linkedin):</li>
+            <li>Title:</li>
+            <li>Tags (optional):</li>
+          </ul>
         </p>
 
         <p>A blog post folder can be convenient to co-locate blog post images:</p>

@@ -4,7 +4,10 @@ pagination_prev: foundation/learn-blockchain-basics
 pagination_next: foundation/what-are-cryptocurrencies
 slug: /foundation/web3-wallets
 ---
-
+<!-- 
+File: 5-web3-wallets.md
+Description: Introduction to Web3 wallets, their setup, and security tips.
+-->
 # What are Web3/Crypto Wallets?
 
 ### Introduction

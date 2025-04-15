@@ -4,6 +4,10 @@ pagination_prev: foundation/bitcoin-hash-encrypt
 pagination_next: foundation/web3-wallets
 slug: /foundation/learn-blockchain-basics
 ---
+<!-- 
+File: 4-learn-blockchain-basics.md
+Description: Covers blockchain fundamentals, consensus mechanisms, and gas fees.
+-->
 
 # Blockchain 101: Blockchain Fundamentals
 

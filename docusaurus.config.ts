@@ -71,9 +71,11 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/create-a-post', label: 'Create Post', position: 'right'},
+        // {to: '/create-a-post', label: 'Blog', position: 'right'},
         {to: '/paths', label: 'All Paths', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
+        // {to: '/contribute', label: 'Contribute', position: 'right'},
+
       ],
     },
     footer: {

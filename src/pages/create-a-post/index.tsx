@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import postStyles from './CreatePost.module.css';
+import postStyles from './createpost.module.css';
 import Layout from '@theme/Layout';
 import BlogPageExample from '@site/src/components/BlogPageExample';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -13,6 +13,7 @@ interface CustomFields {
 
 const CreatePost = () => {
     const { siteConfig } = useDocusaurusContext();
+    // Not sure how this works but it fixes the type error
     const { serviceId, templateId, emailJsPubKey } = siteConfig.customFields as unknown as CustomFields;
 
     const inputContent = useRef<HTMLFormElement | null>(null);

@@ -3,6 +3,10 @@ sidebar_position: 1
 pagination_next: foundation/introduction-to-web3
 slug: /foundation/how-this-course-will-work
 ---
+<!-- 
+File: 1-how-this-course-will-work
+Description: Understanding the premise of this curriculum + terms to know
+-->
 
 # How this Course Will Work
 
@@ -78,5 +82,6 @@ The questions below are an opportunity to reflect on key topics in this lesson. 
 <div class="lesson-content__conclusion" markdown="1">
 
 - Check out [The Odin Project](https://www.theodinproject.com/lessons/foundations-how-this-course-will-work) if you'd like to get into web development.
+- [Blockchain roadmap](https://roadmap.sh/blockchain)
 
 </div>

@@ -4,6 +4,10 @@ pagination_prev: foundation/how-this-course-will-work
 pagination_next: foundation/bitcoin-hash-encrypt
 slug: /foundation/introduction-to-web3
 ---
+<!-- 
+File: 2-introduction-to-web3.md
+Description: Introduction to Web3, its evolution, and key concepts.
+-->
 
 # Introduction to Web3
 

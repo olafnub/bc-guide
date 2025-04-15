@@ -4,6 +4,10 @@ pagination_prev: foundation/introduction-to-web3
 pagination_next: foundation/learn-blockchain-basics
 slug: /foundation/bitcoin-hash-encrypt
 ---
+<!-- 
+File: 3-bitcoin-hash-encrypt.md
+Description: Explains Bitcoin's origins, cryptography, and its significance.
+-->
 
 # Bitcoin Origins: Why It Was Created
 

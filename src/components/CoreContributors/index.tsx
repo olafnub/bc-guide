@@ -11,6 +11,11 @@ const colleges = [
     name: 'UMN Blockchain', 
     image: 'https://pbs.twimg.com/profile_images/1468318721810784262/qsdj-RI8_400x400.jpg',
     social: 'https://www.umnbc.org/'
+  },
+  {
+    name: 'CollegeDAO',
+    image: 'https://pbs.twimg.com/profile_images/1726788449674420224/9DOU-V7Z_400x400.jpg',
+    social: 'https://collegedao.io/'
   }
 
   // { name: 'Blockchain at Berkeley', image: '/img/universities/berkeley.png' },

@@ -38,7 +38,7 @@
     ]
   },
   {
-    "title": "Wrap Up",
+    "title": "Foundation Wrap Up",
     "courses": [
       {
         "href": "/paths/foundation/intro-to-ethereum",
@@ -46,7 +46,11 @@
       },
       {
         "href": "/paths/foundation/modern-blockchains-2020s",
-        "courseTitle": "Modern Blockchain (2020s to now)"
+        "courseTitle": "Modern Blockchain (2020s)"
+      },
+      {
+        "href": "paths/foundation/motivation-and-personal-finance",
+        "courseTitle": "Growth Mindset and Personal Finance"
       },
       {
         "href": "/paths/foundation/career-in-web3",

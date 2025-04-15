@@ -4,7 +4,10 @@ pagination_prev: foundation/web3-wallets
 pagination_next: foundation/sending-and-receiving-crypto
 slug: /foundation/what-are-cryptocurrencies
 ---
-
+<!-- 
+File: 6-what-are-cryptocurrencies.md
+Description: Overview of cryptocurrencies, token standards, and stablecoins.
+-->
 # Cryptocurrencies
 
 ### Introduction

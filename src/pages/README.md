@@ -1,3 +1,9 @@
+# ReadMe
+
+Can create pages with tsx and also .md files.
+
+Ex: 
+markdown-page.md
 ---
 title: Markdown page example
 ---
