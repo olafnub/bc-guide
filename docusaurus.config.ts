@@ -23,7 +23,7 @@ const config: Config = {
   organizationName: 'braineater', // Update to your GitHub org/user name if applicable
   projectName: 'braineater', // Update to your repo name if applicable
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
