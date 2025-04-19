@@ -7,10 +7,21 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import CoreContributors from '@site/src/components/CoreContributors';
 import Heading from '@theme/Heading';
 
+import { PostHogProvider } from 'posthog-js/react';
+
 import styles from './index.module.css';
+
+interface CustomFields {
+  serviceId: string;
+  templateId: string;
+  emailJsPubKey: string;
+  posthogPubKey: string;
+  posthogHost: string;
+}
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
@@ -37,15 +48,25 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+  const { posthogPubKey, posthogHost } = siteConfig.customFields as unknown as CustomFields;
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="A comprehensive guide to web3, blockchain, and cryptocurrency through hands-on learning.">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-        <CoreContributors />
-      </main>
-    </Layout>
+    <PostHogProvider
+      apiKey={posthogPubKey}
+      options={{
+        api_host: posthogHost,
+        debug: process.env.NODE_ENV === "development",
+      }}
+    >
+      <Layout
+        title={`${siteConfig.title}`}
+        description="A comprehensive guide to web3, blockchain, and cryptocurrency through hands-on learning."
+      >
+        <HomepageHeader />
+        <main>
+          <HomepageFeatures />
+          <CoreContributors />
+        </main>
+      </Layout>
+    </PostHogProvider>
   );
 }
