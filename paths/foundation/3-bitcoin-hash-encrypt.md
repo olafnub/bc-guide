@@ -13,15 +13,19 @@ Description: Explains Bitcoin's origins, cryptography, and its significance.
 
 ### Introduction
 
-Before Dogecoin memes and NFT drama, there was **Bitcoin** — the OG cryptocurrency that started it all. In this lesson, we’ll explore:
-- Why Bitcoin was created
-- The history behind its launch
-- The core problems it solves
-- And how it set the stage for the entire crypto movement
+**Bitcoin** — the OG cryptocurrency and blockchain that started this all. Yes, Bitcoin in fact is both a cryptocurrency and a blockchain.
 
-Let’s rewind to a time before Web3 was even a thing.
+By the end of this, we'll understand when, why, and the motivation behind Bitcoin. Some examples on hashing to get a better grasp of what it means, and finally how Bitcoin created a whole new industry with a $2.6 market cap (as of [April 18 2025](https://coinmarketcap.com/crypto-heatmap/)).
 
----
+### Lesson Overview
+
+- Bitcoin What, Bitcoin Why, Bitcoin How
+    - When & Why it was created
+    - The core problems it solves
+- Overview of Hash
+- How Bitcoin set the stage for the entire crypto movement
+
+By the end of this lesson, you'll have an understanding of Bitcoin and the motivation behind it.
 
 ### The Financial Crisis of 2008 💥
 

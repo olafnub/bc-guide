@@ -31,6 +31,16 @@ const config: Config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      'vercel-analytics',
+      {
+        debug: true,
+        mode: 'auto',
+      },
+    ],
+  ],
+  
   presets: [
     [
       'classic',
@@ -41,7 +51,7 @@ const config: Config = {
           path: 'paths',
           routeBasePath: 'paths',
           editUrl:
-            'https://github.com/braineater/braineater/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/olafnub/bc-guide/tree/main/paths',
         },
         blog: {
           showReadingTime: true,
@@ -50,7 +60,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/braineater/braineater/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/olafnub/bc-guide/tree/main/paths',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -74,7 +84,7 @@ const config: Config = {
         // {to: '/create-a-post', label: 'Blog', position: 'right'},
         {to: '/paths', label: 'All Paths', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
-        // {to: '/contribute', label: 'Contribute', position: 'right'},
+        {to: '/contribute', label: 'Contribute', position: 'right'},
 
       ],
     },
@@ -112,7 +122,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/braineater/braineater',
+              href: 'https://github.com/olafnub/bc-guide',
             },
           ],
         },

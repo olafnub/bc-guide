@@ -16,6 +16,11 @@ const colleges = [
     name: 'CollegeDAO',
     image: 'https://pbs.twimg.com/profile_images/1726788449674420224/9DOU-V7Z_400x400.jpg',
     social: 'https://collegedao.io/'
+  },
+  {
+    name: 'Illini Blockchain',
+    image: 'https://cdn-images-1.medium.com/max/280/1*z7_fWm1Ioy5s2W1-H2TK3w@2x.png',
+    social: 'https://illiniblockchain.com/'
   }
 
   // { name: 'Blockchain at Berkeley', image: '/img/universities/berkeley.png' },

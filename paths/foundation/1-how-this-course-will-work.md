@@ -82,6 +82,6 @@ The questions below are an opportunity to reflect on key topics in this lesson. 
 <div class="lesson-content__conclusion" markdown="1">
 
 - Check out [The Odin Project](https://www.theodinproject.com/lessons/foundations-how-this-course-will-work) if you'd like to get into web development.
-- [Blockchain roadmap](https://roadmap.sh/blockchain)
-
+- [Illini Blockchain Club Resource](https://illiniblockchain.com/learning)
+- [Blockchain developer roadmap](https://roadmap.sh/blockchain)
 </div>
