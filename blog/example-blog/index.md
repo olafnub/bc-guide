@@ -3,6 +3,7 @@ slug: example-post
 title: Example-Post
 authors: [yangshun, slorber]
 tags: [first-post]
+date: 2021-09-13T10:00
 ---
 
 Here are a few tips you might find useful for creating a blog post on here to be shared with everyone.
