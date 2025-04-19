@@ -14,7 +14,7 @@ const ContributeForm = () => {
           </p>
 
           <div className="text--center">
-            <h3>Get invovled through Telegram</h3>
+            <h3>Get involved through Telegram</h3>
             <p className="margin-bottom--sm">
               <a
                 href="https://t.me/olafnub"

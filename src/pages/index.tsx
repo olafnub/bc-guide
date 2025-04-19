@@ -54,7 +54,6 @@ export default function Home(): ReactNode {
       apiKey={posthogPubKey}
       options={{
         api_host: posthogHost,
-        debug: process.env.NODE_ENV === "development",
       }}
     >
       <Layout
