@@ -4,8 +4,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import CoreContributors from '@site/src/components/CoreContributors';
 import Heading from '@theme/Heading';
+import PastUpdateLog from '@site/src/components/PastUpdateLog';
 
 import styles from './index.module.css';
 
@@ -52,7 +52,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <CoreContributors />
+        <PastUpdateLog />
       </main>
     </Layout>
   );

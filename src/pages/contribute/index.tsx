@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import PastUpdateLog from '@site/src/components/PastUpdateLog';
+import CoreContributors from '@site/src/components/CoreContributors';
 
 const ContributeForm = () => {
   return (
@@ -58,7 +58,7 @@ const ContributeForm = () => {
             </p>
           </div>
 
-          <PastUpdateLog />
+            <CoreContributors />
         </div>
       </main>
     </Layout>

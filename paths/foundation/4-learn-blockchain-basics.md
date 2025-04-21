@@ -123,7 +123,7 @@ Blockchains with PoS tend to be cheaper and faster than PoW. That’s why Polygo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch this [Blockchain Basics video](https://www.youtube.com/watch?v=SSo_EIwHSd4) (~6 mins)  
+1. Watch this [Blockchain 101 - A visual Demo](https://youtu.be/_160oMzblY8?si=wIV3xan5YjDdHAmH)
 2. Explore [Etherscan](https://etherscan.io/) to see real transactions on Ethereum
 
 </div>
@@ -142,7 +142,7 @@ Blockchains with PoS tend to be cheaper and faster than PoW. That’s why Polygo
 ### Additional Resources
 
 - [Proof of Work vs Proof of Stake (Coinbase)](https://www.coinbase.com/learn/crypto-basics/what-is-proof-of-work-or-proof-of-stake)  
-- [Blockchain Visual Demo (Anders Brownworth)](https://andersbrownworth.com/blockchain/)  
+- [Blockchain Visual Demo (Anders Brownworth)](https://youtu.be/_160oMzblY8?si=wIV3xan5YjDdHAmH)  
 - [Ethereum Whitepaper (for the nerds)](https://ethereum.org/en/whitepaper/)
 
 ---

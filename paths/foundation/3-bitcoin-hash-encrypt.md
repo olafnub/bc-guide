@@ -13,9 +13,9 @@ Description: Explains Bitcoin's origins, cryptography, and its significance.
 
 ### Introduction
 
-Bitcoin, the first cryptocurrency and blockchain to truly survive out of previous cryptocurrency projects. Yes, Bitcoin in fact was not the first cryptocurrency to be made.
+Bitcoin, the first cryptocurrency and blockchain to truly make it global from its predecessors. Yes, Bitcoin in fact was not the first cryptocurrency and there were other cryptocurrencies that had existed in the 1980s, projects like eCash, B-money, and HashCash. But they failed due to many technical and social issues which led to them never taking off. It was until 2008, a anonymous known as Satoshi Nakamoto released Bitcoin that has then helped revolutionize digital currency.
 
-By the end of this lesson, we'll understand when, why, and the motivation behind Bitcoin.We’ll also explore the key mechanisms that helped Bitcoin survive and grow into a $2.6 trillion industry [(as of April 18, 2025)](https://coinmarketcap.com/crypto-heatmap/).
+By the end of this lesson, we'll understand when and why Bitcoin was created, the motivation behind the project, and the key mechanisms that helped Bitcoin grow into a $2.6 trillion industry [(as of April 18, 2025)](https://coinmarketcap.com/crypto-heatmap/).
 
 ### Lesson Overview
 
@@ -24,7 +24,7 @@ By the end of this lesson, we'll understand when, why, and the motivation behind
 
 ### The Financial Crisis of 2008
 
-While the main goal of Bitcoin was to allow online peer-to-peer (Person -> Person) payments without the need of a bank, Bitcoin happened to catch the wave of defying centralized banks and governments, as it was launched a little after the 2008 financial crisis. 
+While the main goal of Bitcoin was to allow online peer-to-peer (Person -> Person) payments without the need of a bank, Bitcoin caught the wave of defying centralized banks and governments, as it was launched a little after the 2008 financial crisis. 
 
 **A brief overview of the 2008 financial crisis:** The collapse of major banks like the Lehman Brothers was driven by greed and a false promise; banks approved loans with zero percent down payments, advertising that the housing market would always go up, meaning that no one could lose money. Selling on this false promise, many people started "buying" multiple houses without the proof of a good financial history, or even income. 
 
