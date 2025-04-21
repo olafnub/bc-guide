@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 pagination_prev: foundation/introduction-to-web3
-pagination_next: foundation/learn-blockchain-basics
+# pagination_next: foundation/learn-blockchain-basics
 slug: /foundation/bitcoin-hash-encrypt
 ---
 <!-- 
@@ -109,15 +109,20 @@ Find a quiet place, sit down and check out the assignments below.
 
 ### Knowledge Check
 
+<div class="lesson-content__conclusion" markdown="1">
+
 - What problem does Bitcoin solve that [digital money couldn't before?](#bitcoin-how)
 - [Are functions and methods the same?](#cryptography)
 - [Bitcoin's limited supply](#bitcoin-what-pt2)
 
+</div>
+
 ### Additional Resources
+
+<div class="lesson-content__conclusion" markdown="1">
 
 - [Bitcoin.org Introduction](https://bitcoin.org/en/how-it-works)
 - [How Secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=B5DEaX_cI8n-M9CF) (a fun watch even it's hard to understand)
 - [Were there cryptocurrencies before Bitcoin?](https://www.investopedia.com/tech/were-there-cryptocurrencies-bitcoin/)
 
-Let’s talk about how the network actually agrees on who owns what.
-
+</div>

@@ -1,34 +1,64 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
+import PastUpdateLog from '@site/src/components/PastUpdateLog';
 
 const ContributeForm = () => {
-  const formInput = useRef<HTMLFormElement | null>(null);
-
   return (
     <Layout title="Contribute">
-      <main className="container margin-vert--lg">
-        <div className="card shadow--md padding--lg">
-          <h1 className="text--center">Contribute</h1>
-          <p className="text--center margin-bottom--lg">
-            Broken Link, mistyped words, or incorrect grammar?
-          </p>
-
-          <div className="text--center">
-            <h3>Get involved through Telegram</h3>
-            <p className="margin-bottom--sm">
-              <a
-                href="https://t.me/olafnub"
-                className="button button--lg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @olafnub
-              </a>
+      <main className="container margin-vert--xl">
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
+          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+            <h1 style={{ 
+              fontSize: '3rem', 
+              fontWeight: 'bold',
+              marginBottom: '1.5rem',
+              background: 'linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-dark))',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent'
+            }}>
+              Help Improve Our Guide
+            </h1>
+            <p style={{ 
+              fontSize: '1.25rem', 
+              color: 'var(--ifm-color-primary-lighter)',
+              maxWidth: '600px',
+              margin: '0 auto'
+            }}>
+              Found a broken link, typo, or have suggestions? We appreciate your help in making this guide better for everyone.
             </p>
-            {/* <p>
-              (Remeber: I’ll never ask you for money or download anything, stay safe)
-            </p> */}
           </div>
+
+          <div style={{
+            background: 'var(--assignment-box-primary)',
+            borderRadius: '1rem',
+            padding: '2rem',
+            boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
+            textAlign: 'center'
+          }}>
+            <p style={{ 
+              color: '#94a3b8', 
+              marginBottom: '1.5rem'
+            }}>
+              Connect with us on Telegram to share feedback and suggestions
+            </p>
+            <a
+              href="https://t.me/olafnub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button--info button--lg"
+            >
+              @olafnub
+            </a>
+            <p style={{ 
+              fontSize: '0.875rem',
+              color: '#94a3b8',
+              marginTop: '1rem'
+            }}>
+              Note: I'll never ask you for money or to download anything. Watch out for impersonators!
+            </p>
+          </div>
+
+          <PastUpdateLog />
         </div>
       </main>
     </Layout>
