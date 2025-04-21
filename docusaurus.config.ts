@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import 'dotenv/config';
 
 const config: Config = {
-  title: 'Brain Eater',
+  title: 'Web3 Learning Guide',
   tagline: '(with semi-quick assignments)',
   favicon: 'img/favicon.ico',
 

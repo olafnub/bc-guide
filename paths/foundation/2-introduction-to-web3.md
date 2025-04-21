@@ -62,6 +62,8 @@ Bringing it all together: Think of _blockchain_ as a Google Sheet that records b
 
 - **Smart Contract:** Code that runs on the blockchain: you can deploy code onto the blockchain and have it execute based on certain conditions. Ex: When Moira sends Joseph $10 on the blockchain, Joseph's smart contract would execute the swap of the product that Moira paid for. The code in Joseph's smart contract is unchangeable because it's on the blockchain. There's a saying in Web3 that "Code is Law".
 
+- **Decentralized vs Centralized**: Centralize means there's a central entity that controls everything. Ex: Amazon controls all the products that it owns. Decentralized means that there's no central entity that controls everything. Ex: Bitcoin is decentralized since no one controls the entire blockchain.
+
 - **Decentralized Application:** Also known as a dApp, it's just an app that's built on the blockchain.
 
 - **Token:** A digital asset. Could represent money (cryptocurrency), art (NFT), identity, etc. Most of the time when people say tokens, they're usually talking about some cryptocurrency. But a token can really be any digital assets on the blockchain, such as an NFT (Non-Fungible-Token).
@@ -118,6 +120,7 @@ Risks: It's a bit costly for bad actors who want to tamper with the blockchain b
 - [What are the main differences between Web2 and Web3?](#the-evolution-of-the-web-the-internet)
 - If a friend that you trust reaches out to you on telegram asking for money, [what would you do?](#common-risks-to-look-out-for)
 - [True or False](#what-is-web3): Blockchain, Cryptocurrency, and NFTs are apart of Web3
+- [Differences between centralization and decentralization](#evolution-of-the-web-the-internet)
 
 </div>
 

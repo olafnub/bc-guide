@@ -34,7 +34,7 @@ function HomepageHeader() {
             </Link>
           </div>
           <div className={styles.inspirationNote}>
-            <p>Inspired by The Odin Project's open-source learning approach</p>
+            <p>Inspired by The Odin Project's learning approach</p>
           </div>
         </div>
       </div>

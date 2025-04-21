@@ -1,9 +1,20 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import CourseLink from '@site/src/components/CourseLink';
-import topics from './foundation.json'; // Import the JSON file
+import topicsJSON from './foundation.json';
+
+interface Topic {
+  title: string;
+  courses: {
+    href: string;
+    courseTitle: string;
+  }[];
+}
 
 const FoundationCourses = () => {
+
+  const topics: Topic[] = topicsJSON;
+
   return (
     <Layout>
       <div className="container margin-vert--lg">
@@ -25,10 +36,18 @@ const FoundationCourses = () => {
               <ul className="list--unstyled">
                 {topic.courses.map((course, courseIndex) => (
                   <li key={courseIndex} className="course--link">
-                    <CourseLink 
-                      courseHref={course.href}
-                      courseTitle={course.courseTitle}
-                    />
+                    {topic.title.includes('(in the works)') ? (
+                      <CourseLink 
+                        courseHref={course.href}
+                        courseTitle={course.courseTitle}
+                        disabled={true}
+                      />
+                    ) : (
+                      <CourseLink 
+                        courseHref={course.href}
+                        courseTitle={course.courseTitle}
+                      />
+                    )}
                   </li>
                 ))}
               </ul>

@@ -35,11 +35,10 @@ Let's get into it!
 
 ### How it Works
 
-This curriculum will consist of topic writeups, reading materials, videos, and even hands on learning on how a blockchain works. Whether
-you're completely new to blockchain or just someone that just wants a refresher on certain topics, this is the guide made for you. 
+Each lesson under this curriculum will consist of a topic writeup, reading materials, videos, and perhaps some hands on learning on how a blockchain works. The goal again is to prepare you with the basic knowledge and then have you explore the topic further; allowing you to better understand external resources. Whether you're completely new to blockchain or just someone that just wants a refresher on certain topics, this is the guide made for you. 
 Note: This is completely beginner friendly.
 
-Each lesson will be structured pretty much the same: 
+All the lesson writeups will be structured pretty much the same: 
 ```python 
 Introduction -> Basic Knowledge -> Conclusion -> 
 Assignment -> Knowledge Check -> Additional Resources
@@ -82,6 +81,6 @@ The questions below are an opportunity to reflect on key topics in this lesson. 
 <div class="lesson-content__conclusion" markdown="1">
 
 - Check out [The Odin Project](https://www.theodinproject.com/lessons/foundations-how-this-course-will-work) if you'd like to get into web development.
-- [Illini Blockchain Club Resource](https://illiniblockchain.com/learning)
-- [Blockchain developer roadmap](https://roadmap.sh/blockchain)
+- [Illini Blockchain Club Resource](https://illiniblockchain.com/learning) has a great guide in web3 as well
+- [Blockchain developer roadmap](https://roadmap.sh/blockchain) for those interested in the development path
 </div>
