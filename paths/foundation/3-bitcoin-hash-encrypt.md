@@ -13,9 +13,18 @@ Description: Explains Bitcoin's origins, cryptography, and its significance.
 
 ### Introduction
 
-Bitcoin, the first cryptocurrency and blockchain to truly make it global from its predecessors. Yes, Bitcoin in fact was not the first cryptocurrency and there were other cryptocurrencies that had existed in the 1980s, projects like eCash, B-money, and HashCash. But they failed due to many technical and social issues which led to them never taking off. It was until 2008, a anonymous known as Satoshi Nakamoto released Bitcoin that has then helped revolutionize digital currency.
+Bitcoin, the first cryptocurrency and blockchain to truly make it global from its predecessors. Yes, Bitcoin in fact was not the first cryptocurrency and there were other cryptocurrencies that had existed in the 1980s, projects like eCash, B-money, and HashCash. But they failed due to many technical and social issues which led to them never taking off. It wasn't until 2008, a pseudonymous going by the name "Satoshi Nakamoto" released Bitcoin that has then helped revolutionize digital currency.
 
 By the end of this lesson, we'll understand when and why Bitcoin was created, the motivation behind the project, and the key mechanisms that helped Bitcoin grow into a $2.6 trillion industry [(as of April 18, 2025)](https://coinmarketcap.com/crypto-heatmap/).
+
+---
+> Cryptocurrency: A digital form of money that exists only online
+---
+> Blockchain: A digital notebook that records all cryptocurrency transactions that's public for everyone to view.
+---
+> I reviewed these two words in the previous lesson if interested, though no need to memorize what they mean, as we'll get into more details later.
+
+---
 
 ### Lesson Overview
 
@@ -24,7 +33,7 @@ By the end of this lesson, we'll understand when and why Bitcoin was created, th
 
 ### The Financial Crisis of 2008
 
-While the main goal of Bitcoin was to allow online peer-to-peer (Person -> Person) payments without the need of a bank, Bitcoin caught the wave of defying centralized banks and governments, as it was launched a little after the 2008 financial crisis. 
+While the main goal of Bitcoin was to allow online peer-to-peer (Person -> Person, without the need of a bank or third party) payments, Bitcoin caught the wave of defying centralized banks and governments, as it was launched a little after the 2008 financial crisis. 
 
 **A brief overview of the 2008 financial crisis:** The collapse of major banks like the Lehman Brothers was driven by greed and a false promise; banks approved loans with zero percent down payments, advertising that the housing market would always go up, meaning that no one could lose money. Selling on this false promise, many people started "buying" multiple houses without the proof of a good financial history, or even income. 
 
@@ -42,7 +51,7 @@ Another major innovation behind Bitcoin was to prevent double-spending. As the w
 
 - If you have 100 dollars online, you shouldn't be allowed to send $100 to your friend Alice. Then send another $100 to your friend Bob.
 
-That's where Bitcoin comes in. It prevents double spending by using blockchain technology; blockchain uses hashing and encryption methods to verify every transaction that happens on the ledger; ensuring no one can double spend or fake a transactions on the ledger (as touched on in the previous lesson).
+That's where Bitcoin comes in. It prevents double spending by using blockchain; blockchain uses hashing and encryption methods to verify every transaction that happens on the ledger, ensuring no one can double spend or fake a transactions on the ledger.
 
 While apps such as PayPal, Venmo, and centralized banks already have their own ledgers, making sure transactions flowing through are valid. The problem is that these centralized models works... until they don't, which is what we saw in the 2008 financial crisis.
 
