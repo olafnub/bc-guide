@@ -16,7 +16,7 @@ const ContributeForm = () => {
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent'
             }}>
-              Help Improve Our Guide
+              Want to see a particular topic?
             </h1>
             <p style={{ 
               fontSize: '1.25rem', 
@@ -24,7 +24,7 @@ const ContributeForm = () => {
               maxWidth: '600px',
               margin: '0 auto'
             }}>
-              Found a broken link, typo, or have suggestions? We appreciate your help in making this guide better for everyone.
+             Help improve our guide by connecting with us on Telegram to share feedback and suggestions
             </p>
           </div>
 
@@ -39,7 +39,7 @@ const ContributeForm = () => {
               color: '#94a3b8', 
               marginBottom: '1.5rem'
             }}>
-              Connect with us on Telegram to share feedback and suggestions
+              Can also dm us to speed up on releasing a topic!
             </p>
             <a
               href="https://t.me/olafnub"

@@ -85,6 +85,7 @@ const config: Config = {
       items: [
         // {to: '/create-a-post', label: 'Blog', position: 'right'},
         {to: '/paths', label: 'All Paths', position: 'right'},
+        {to: '/funzies', label: 'Funzies', position: 'right'},
         // {to: '/blog', label: 'Blog', position: 'right'},
         {to: '/contribute', label: 'Contribute', position: 'right'},
 

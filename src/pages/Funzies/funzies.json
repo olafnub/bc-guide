@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Interact with the blockchain",
+    "courses": [
+      {
+        "href": "/funzies/staking-basics",
+        "courseTitle": "Crypto Personal Finance 101"
+      },
+      {
+        "href": "/funzies/dao-basics",
+        "courseTitle": "Voting + Jupiter DAO"
+      }
+    ]
+  },
+  {
+    "title": "Hackathon Guide",
+    "courses": [
+      {
+        "href": "/paths/hackathon",
+        "courseTitle": "Uniswap v4 hooks"
+      }
+    ]
+  }
+]

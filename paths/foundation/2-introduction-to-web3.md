@@ -15,7 +15,7 @@ Description: Introduction to Web3, its evolution, and key concepts.
 
 Welcome to the world of Web3! This course is designed to take you from zero to understanding the fundamental concepts of blockchain, cryptocurrency, and decentralization. Whether you're a complete beginner or someone looking to solidify their understanding, this course will provide you with the essential knowledge needed to navigate the Web3 space.
 
-By the end of this lesson, you'll have a big-picture understanding of what Web3 is, how it became to be, and the underlying terms used that describes Web3. Laslty, we'll highlight common risks that you should be aware of in this space.
+By the end of this lesson, you'll have an understanding of what Web3 is, how it became to be, and the underlying terms used that describes Web3. Lastly, we'll highlight common risks that you should be aware of in this space.
 
 ### Lesson Overview
 
@@ -27,7 +27,7 @@ Let's begin!
 
 ### What is Web3?
 
-Web3 is hypothesized to be the next evolution of the internet. We had Web 1.0 back in the 1990s, Web 2.0 since the 2000s, and now we have Web3 (atleast that's the goal of this new field). Web3 introduces the idea of a self soverign internet. What comes with this is stricter privacy protection for users, money transactions online that are much cheaper and quicker, a more trustable internet, and a lot more ideas that we'll later mention in this course.
+Web3 is hypothesized to be the next evolution of the internet. We had Web 1.0 back in the 1990s, Web 2.0 since the 2000s, and now we have Web3 (atleast that's the idea of this new field). Web3 introduces the idea of a self sovereign internet. What comes with this is stricter privacy protection for users, money transactions online that are much cheaper and quicker, a more trustable internet, and a lot more ideas that we'll later mention in this course.
 
 ### The Evolution of the Web (the internet)
 
@@ -88,7 +88,7 @@ Scams are always evolving and as this field continues to grow therefore more and
 
 - If on telegram, people will impersonate your friends telegram. **NEVER** send money if asked through telegram or click on a link without verifying that the person is real, even if it's a friend or client. Bots will copy your friends telegram's profile picture, name, and description when they reach out to you. Double check that you share the same groups or have the same message history before continuing.
 
-In the future, we can publish more on what to lookout for in the blog section, feel free to send us some of the precautions [that you know of](/contribute)!
+In the future, we can publish more on what to lookout for in the blog section, feel free to send us some of the precautions [that you know of](https://braineater.io/contribute)!
 </div>
 
 
