@@ -130,7 +130,7 @@ Find a quiet place, sit down and check out the assignments below.
 
 <div class="lesson-content__conclusion" markdown="1">
 
-- [Bitcoin.org Introduction](https://bitcoin.org/en/how-it-works)
+- [How the Bitcoin Protocol Actually Works](https://michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/) is a great read (don't let the scrollbar fool you)
 - [How Secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=B5DEaX_cI8n-M9CF) (a fun watch even it's hard to understand)
 - [Were there cryptocurrencies before Bitcoin?](https://www.investopedia.com/tech/were-there-cryptocurrencies-bitcoin/)
 
