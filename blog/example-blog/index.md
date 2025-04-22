@@ -6,9 +6,9 @@ tags: [first-post]
 date: 2021-09-13T10:00
 ---
 
-Here are a few tips you might find useful for creating a blog post on here to be shared with everyone.
-
 <!-- truncate -->
+
+Here are a few tips you might find useful for creating a blog post on here to be shared with everyone.
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
@@ -27,6 +27,6 @@ A blog post folder can be convenient to co-locate blog post images:
 
 The blog supports tags as well!
 
-Write your blog post [here](https://github.com/olafnub/bc-guide/tree/main/blog)! <!-- Write a blog post here -->
+Write your blog post [here](https://github.com/BrainEater-Io/BrainEater/tree/main/blog)! <!-- Write a blog post here -->
 
 <!-- **And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config. -->

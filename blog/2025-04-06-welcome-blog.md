@@ -5,9 +5,9 @@ authors: [olafnub]
 tags: [first-post]
 ---
 
-A blog section dedicated for community posts; you can post blogs on here! More info below, Excited to see you here :)
-
 <!-- truncate -->
+
+A blog section dedicated for community posts; you can post blogs on here! More info below, Excited to see you here :)
 
 The idea of blog posts are for shorter or longer content forms where people can visit and look at. Information such as resume tips, web3 ideas, and understanding of how crypto tech works are posts we hope to continue.
 

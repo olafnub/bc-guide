@@ -53,7 +53,7 @@ const config: Config = {
           path: 'paths',
           routeBasePath: 'paths',
           editUrl:
-            'https://github.com/olafnub/bc-guide/tree/main/paths',
+            'https://github.com/BrainEater-Io/BrainEater',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/olafnub/bc-guide/tree/main/paths',
+            'https://github.com/BrainEater-Io/BrainEater',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -124,7 +124,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/olafnub/bc-guide',
+              href: 'https://github.com/BrainEater-Io/BrainEater',
             },
           ],
         },
