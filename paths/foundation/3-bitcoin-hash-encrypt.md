@@ -47,7 +47,7 @@ _Note: To this day, Satoshi Nakamoto's identity is unknown. People speculate tha
 
 ### Bitcoin How
 
-Another major innovation behind Bitcoin was to prevent double-spending. As the world moves more towards an electronic world, the problem of double spending was yet to be solved. For example: 
+Another major innovation behind Bitcoin was to prevent double-spending. As money is moving to a more digital world, the problem of double spending was yet to be solved (without the need of a third party). For example: 
 
 - If you have 100 dollars online, you shouldn't be allowed to send $100 to your friend Alice. Then send another $100 to your friend Bob.
 
@@ -65,7 +65,7 @@ Cryptography is the backbone of how we interact with the internet today. Every e
 
 _Note: Cryptography dates back to as early as 1900 BC in Egypt, where hieroglyphs were used in tomb writing, conveying secret messages._
 
-Bitcoin uses a hashing method called SHA-256, and uses an encryption method called ECDSA, don't worry about memorizing the acronyms as they mean little to us right now. Another note to add, in the world of computer science, methods and functions mean the same. So if I were to use a specific method of making eggs, it's the same as using the specific function of making eggs. Passing an raw egg into a method gives me a cooked egg = Passing a raw egg into a function gives me a cooked egg. Bitcoin uses the SHA-256 function to secure its data by linking each output together.
+Bitcoin uses a hashing method called SHA-256, and uses an encryption method called ECDSA, don't worry about memorizing the acronyms as they mean little to us right now. Another note to add, in the world of computer science, methods and functions mean the same. So if I were to use a specific method of making eggs, it's the same as using the specific function of making eggs. For example, passing a raw egg into a method gives me a cooked egg is equal to saying passing a raw egg into a function gives me a cooked egg. Bitcoin uses the SHA-256 function to secure its data by linking each output together.
 
 #### Example of Hashing
 A hash function takes any data and turns it into a fixed-length, unique characters.
@@ -92,17 +92,16 @@ A decryption function takes any encrypted data and turns it back into the origin
 
 #### Encryption != Hashing
 
-A lot of people seem to misunderstand the difference between encryption and hashing (myself included). To clarify, the reason they're not the same even though they both use mathematical formulas to populate results, encrypted messages can be reverted back to the original message by using a key, but a hashed message cannot.
+A lot of people seem to misunderstand the difference between encryption and hashing (myself included). To clarify, the reason they're not the same even though they both use mathematical formulas to populate results, encrypted messages can be reverted back to the original message by using a key, while a hash message cannot since it's irreversible.
 
 ### Bitcoin What Pt.2
 
 Other attributes that bitcoin has:
 
-- **No bank required**: You're your own bank
-- **Limited Supply**: Only 21 million BTC will ever exist
-- **Accessible**: Anyone with internet can use it around the world
-- **Transparent**: The entire ledger is public and people can verify transactions
-- **Bankless**: Send money anywhere and anytime, again without the need of a bank
+- **No bank required**: You're your own bank and everyone participating in the bitcoin network verifies each other's balances.
+- **Limited Supply**: Only 21 million BTC will ever exist. Currently there's about 20 million BTC mined and in the market. Though ~7.5% of it is lost from people losing their wallets.
+- **Accessible**: Anyone with internet can use it around the world, and can send money anywhere and at anytime
+- **Transparent**: The entire ledger is public. And through a thing called consensus mechanism (which we'll get into in a future lesson), all transactions are valid.
 
 ### Assignment
 
@@ -113,6 +112,9 @@ Find a quiet place, sit down and check out the assignments below.
 1. Watch [3Blue1Brown's Bitcoin explanation](https://youtu.be/bBC-nXj3Ng4?si=e1O0sulIwZKjZS46)
 2. Try hashing your name using [SHA256 online tool](https://emn178.github.io/online-tools/sha256.html)
 3. Read the abstract of [Bitcoin’s whitepaper](https://bitcoin.org/bitcoin.pdf)
+4. [How SHA Works -- Computerphile](https://youtu.be/DMtFhACPnTY?si=B1VOu-buGX_txghb) Watch (0:00 - 3:41)
+
+_A good way to visualize how a hash function is think of putting a fruit into a blender and getting the juice once blended. The juice can't be undone but you know that the fruit will always get you the juice when put in the blender._
 
 </div>
 
@@ -130,8 +132,9 @@ Find a quiet place, sit down and check out the assignments below.
 
 <div class="lesson-content__conclusion" markdown="1">
 
-- [How the Bitcoin Protocol Actually Works](https://michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/) is a great read (don't let the scrollbar fool you)
 - [How Secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=B5DEaX_cI8n-M9CF) (a fun watch even it's hard to understand)
 - [Were there cryptocurrencies before Bitcoin?](https://www.investopedia.com/tech/were-there-cryptocurrencies-bitcoin/)
+- [Bitcoin supply distribution between exchanges, individuals, and lost BTC](https://www.ainvest.com/news/individuals-hold-69-bitcoin-supply-institutions-scramble-2502/)
+- [How the Bitcoin Protocol Actually Works](https://michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/) is a great read (don't let the scrollbar fool you)
 
 </div>
