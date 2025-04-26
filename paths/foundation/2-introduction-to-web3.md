@@ -37,7 +37,7 @@ Web3 is hypothesized to be the next evolution of the internet. We had Web 1.0 ba
 | **Web2 (2000s–now)** | Web2 came along and it introduced the idea of a more social internet. Where now people are able to interact and post their own content. | Social media, user-generated content, big platforms like YouTube, Facebook, Reddit. Apps became interactive but also centralized (meaning 1 company at top controlled all). 
 | **Web3 (emerging)** | Web3, which is hypothesized to be the next stage of the internet, allows users to build applications on decentralized networks, aka a blockchain. | Focuses on decentralization, privacy, and digital ownership. Think apps *without* a central company running the show.
 
-This is essentially birdseye view of the evolution of the internet, We'll go deeper into certain topics later in the course. _Fun Fact: The term Web3 was actually first introduced ~6 years after the launch of Bitcoin by Gavin Wood, [founder of Polkadot and co-founder of Ethereum](https://en.wikipedia.org/wiki/Web3#:~:text=The%20term%20%22web3%22%20was%20coined%20by%20Polkadot%20founder%20and%20Ethereum,idea%20of%20web3%20gained%20popularity)._
+This is essentially birds-eye view of the evolution of the internet, We'll go deeper into certain topics later in the course. _Fun Fact: The term Web3 was actually first introduced ~6 years after the launch of Bitcoin by Gavin Wood, [founder of Polkadot and co-founder of Ethereum](https://en.wikipedia.org/wiki/Web3#:~:text=The%20term%20%22web3%22%20was%20coined%20by%20Polkadot%20founder%20and%20Ethereum,idea%20of%20web3%20gained%20popularity)._
 
 Note: Cryptocurrency, blockchain, NFTs, etc, are all in the web3 umbrella!
 
@@ -56,9 +56,9 @@ Digital: Online, on the internet.
 
 Distributed: When describing an object with "distributed", it means that the object is dispersed and does not have one central location. For example, All the trees in this world are distributed since trees are dispersed around this world, not all trees are in one exact location. 
 
-Ledger: A tracker of all financial transactions that has happened. For example, every buy and sell that's happened at your local gas station probably has a ledger that records and gets updated everytime a customer pays for gas or snacks. So a digital ledger = all financial transactions but online.
+Ledger: A tracker of all financial transactions that has happened. For example, every buy and sell that's happened at your local gas station probably has a ledger that records and gets updated every time a customer pays for gas or snacks. So a digital ledger = all financial transactions but online.
 
-Bringing it all together: Think of _blockchain_ as a Google Sheet that records buys, sells, and transfers on all transactions that's happening, i.e everyone in the world that's using the blockchain. If implemented correclty, any transaction that's happened in the past is verifiable by just looking at the google sheet (blockchain) and looking up the transaction number. This allows the proof of a transaction happening instead of trusting by word.
+Bringing it all together: Think of _blockchain_ as a Google Sheet that records buys, sells, and transfers on all transactions that's happening, i.e everyone in the world that's using the blockchain. If implemented correctly, any transaction that's happened in the past is verifiable by just looking at the google sheet (blockchain) and looking up the transaction number. This allows the proof of a transaction happening instead of trusting by word.
 
 - **Smart Contract:** Code that runs on the blockchain: you can deploy code onto the blockchain and have it execute based on certain conditions. Ex: When Moira sends Joseph $10 on the blockchain, Joseph's smart contract would execute the swap of the product that Moira paid for. The code in Joseph's smart contract is unchangeable because it's on the blockchain. There's a saying in Web3 that "Code is Law".
 
@@ -107,7 +107,7 @@ Risks: It's a bit costly for bad actors who want to tamper with the blockchain b
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch this [What is Web 3.0?](https://www.youtube.com/watch?v=nHhAEkG1y2U) (watch from 1:00-5:30)
+1. Watch this [What is Web 3.0?](https://www.youtube.com/watch?v=nHhAEkG1y2U) (start from 1:00 - 5:30)
 2. Check out [app examples of web1, web2, and web3](https://miro.medium.com/v2/resize:fit:1400/1*2ktkAMzyxKVoi_4Q8d8qcw.png)
 3. A bit lengthy but it helps [solidify this lesson](https://medium.com/l4-media/making-sense-of-web-3-c1a9e74dcae)
 

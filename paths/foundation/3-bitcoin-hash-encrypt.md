@@ -100,9 +100,9 @@ Other attributes that bitcoin has:
 
 - **No bank required**: You're your own bank
 - **Limited Supply**: Only 21 million BTC will ever exist
-- **Permissionless**: Anyone with internet can use it around the world
+- **Accessible**: Anyone with internet can use it around the world
 - **Transparent**: The entire ledger is public and people can verify transactions
-- **Borderless**: Send money anywhere and anytime, again without the need of a bank
+- **Bankless**: Send money anywhere and anytime, again without the need of a bank
 
 ### Assignment
 
