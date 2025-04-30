@@ -1,9 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/posthog/(.*)",
-      "dest": "us.i.posthog.com"
+      "source": "/api/posthog/(.*)",
+      "destination": "https://app.posthog.com/api/track/$1"
     }
   ]
 }
