@@ -18,10 +18,10 @@ interface CustomFields {
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
-  fetch("http://localhost:3000/api")
-  .then(res => res.json())
-  .then(data => console.log(data))
-  .catch(err => console.log(err))
+  // fetch("http://localhost:3000/api")
+  // .then(res => res.json())
+  // .then(data => console.log(data))
+  // .catch(err => console.log(err))
   
   return (
     <header className={clsx('hero', styles.heroBanner)}>

@@ -1,12 +1,15 @@
 {
-    "rewrites": [
-      {
-        "source": "e.braineater.io/static/*",
-        "destination": "https://us-assets.i.posthog.com/static/*"
-      },
-      {
-        "source": "e.braineater.io/*",
-        "destination": "https://us.i.posthog.com/*"
-      }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/posthog/(.*)",
+      "dest": "us.i.posthog.com"
+    }
+  ]
+}
