@@ -18,7 +18,8 @@ const config: Config = {
     templateId: process.env.TEMPLATE_ID,
     emailJsPubKey: process.env.EMAILJS_PUB_KEY,
     posthogPubKey: process.env.PUBLIC_POSTHOG_KEY,
-    posthogHost: process.env.PUBLIC_POSTHOG_HOST,
+    posthogApiHost: process.env.PUBLIC_POSTHOG_API_HOST,
+    posthogUiHost: process.env.PUBLIC_POSTHOG_UI_HOST,
   },
 
   // GitHub pages deployment config.

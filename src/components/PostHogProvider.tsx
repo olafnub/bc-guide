@@ -4,12 +4,13 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 interface CustomFields {
   posthogPubKey: string;
-  posthogHost: string;
+  posthogApiHost: string;
+  posthogUiHost: string;
 }
 
 export function PostHogProvider({ children }) {
   const { siteConfig } = useDocusaurusContext();
-  const { posthogPubKey, posthogHost } = siteConfig.customFields as unknown as CustomFields;
+  const { posthogPubKey, posthogApiHost, posthogUiHost } = siteConfig.customFields as unknown as CustomFields;
 
   // Disable tracking in test environment
   if (process.env.NODE_ENV === 'test') {
@@ -20,7 +21,8 @@ export function PostHogProvider({ children }) {
     <BasePostHogProvider
       apiKey={posthogPubKey}
       options={{
-        api_host: posthogHost,
+        api_host: posthogApiHost,
+        ui_host: posthogUiHost,
         autocapture: process.env.NODE_ENV === 'production', // Only autocapture in production
         capture_pageview: process.env.NODE_ENV === 'production', // Only capture pageviews in production
         loaded: (posthog) => {

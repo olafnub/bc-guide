@@ -9,14 +9,12 @@ interface CustomFields {
   serviceId: string;
   templateId: string;
   emailJsPubKey: string;
-  posthogPubKey: string;
-  posthogHost: string;
 }
 
 const CreatePost = () => {
     const { siteConfig } = useDocusaurusContext();
     // Not sure how this works but it fixes the type error
-    const { serviceId, templateId, emailJsPubKey, posthogPubKey, posthogHost } = siteConfig.customFields as unknown as CustomFields;
+    const { serviceId, templateId, emailJsPubKey } = siteConfig.customFields as unknown as CustomFields;
 
     const inputContent = useRef<HTMLFormElement | null>(null);
 
