@@ -132,6 +132,7 @@ _A good way to visualize how a hash function is think of putting a fruit into a 
 
 <div class="lesson-content__conclusion" markdown="1">
 
+- [Why Warren Buffett Said No to Lehman and AIG in 2008](https://youtu.be/1QeUcfqkUzc?si=aNvUmrO7qBv8nbIv)
 - [How Secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=B5DEaX_cI8n-M9CF) (a fun watch even it's hard to understand)
 - [Were there cryptocurrencies before Bitcoin?](https://www.investopedia.com/tech/were-there-cryptocurrencies-bitcoin/)
 - [Bitcoin supply distribution between exchanges, individuals, and lost BTC](https://www.ainvest.com/news/individuals-hold-69-bitcoin-supply-institutions-scramble-2502/)

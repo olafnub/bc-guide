@@ -15,6 +15,18 @@ interface CustomFields {
   emailJsPubKey: string;
 }
 
+const StartLearnButton = () => {
+  return (
+    <div className={styles.buttons}>
+      <Link
+        className="button button--primary button--lg"
+        to="/paths">
+        Start Learning
+      </Link>
+    </div>
+  )
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
@@ -31,13 +43,7 @@ function HomepageHeader() {
             {siteConfig.title}
           </Heading>
           <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--primary button--lg"
-              to="/paths">
-              Start Learning
-            </Link>
-          </div>
+          <StartLearnButton />
           <div className={styles.inspirationNote}>
             <p>Inspired by The Odin Project's learning approach</p>
           </div>
@@ -58,6 +64,7 @@ export default function Home(): ReactNode {
       <main>
         <HomepageFeatures />
         <PastUpdateLog />
+        <StartLearnButton />
       </main>
     </Layout>
   );

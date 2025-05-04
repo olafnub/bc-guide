@@ -21,7 +21,7 @@ By the end of this lesson, you'll have an understanding of what Web3 is, how it 
 
 - What is Web3 and why does it matter?
 - The evolution of the web and internet (Web1, Web2, Web3)
-- Key concepts used in the field, and Web3 risks
+- Key concepts used in the field, and common risks in web3
 
 Let's begin!
 
@@ -75,13 +75,13 @@ Forgot to mention that a blockchain is also tamper proof, meaning people cannot 
 
 As of right now, don't worry on understanding or memorizing what any of these terms mean. Overtime you'll get more familiar with them as you dive deeper into web3 and see them more often.
 
-### Web3 Risks
+### Common Risks
 
 While Web3 introduces a lot of good incentives for people to try out, such as allowing people to transfer money online _without_ the need of an external party, users in web3 unfortunately are more exposed to targeted scam attacks. 1 being it's such a new field and we're all boomers when using it, and 2 being the nature of web3 is decentralization. Since there's no central authority, such as a bank, who may have a lot more cyber defense, you being an individual are a much easier target. Individuals are more likely to click to one wrong button and lose their entire net worth whereas a bank would have 2FAs and other security measures to protect your money. But there are security measures that we can take to make sure we don't lose money _from scams_.
 
 ### Common Risks to look out for
 
-Scams are always evolving and with a field that continues to grow, more and more scams will pop up overtime. Note that mentioning this isn't to scare you, but to let you know what's out there in order to prevent such an attack. Here are a few examples to be on the lookout for.
+Scams are always evolving and with a field that continues to grow, the trajectory is the same for scams. Note that mentioning this isn't to scare you, but to let you know what's out there (_the wild_) in order to prevent such an attack. Here are a few examples to be on the lookout for.
 
 <div class="lesson-content__conclusion" markdown="1"> 
 <!-- To make the link green -->
