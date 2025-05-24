@@ -45,7 +45,7 @@ const ContributeForm = () => {
               href="https://t.me/olafnub"
               target="_blank"
               rel="noopener noreferrer"
-              className="button button--info button--lg"
+              className="button button--primary button--lg"
             >
               @olafnub
             </a>

@@ -4,72 +4,148 @@
  */
 
 .heroBanner {
-  padding: 6rem 0;
-  text-align: center;
+  padding: 2rem 0 1.5rem 0;
+  text-align: left;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #1B4D3E 0%, #29784c 100%);
-  color: white;
+  background: var(--ifm-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .heroContent {
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1.5rem 2rem 1rem 2rem;
 }
 
 .heroTitle {
-  font-size: 3.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-emphasis-900);
   font-weight: 700;
-  margin-bottom: 1.5rem;
-  line-height: 1.2;
 }
 
 .heroSubtitle {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
 }
 
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .inspirationNote {
-  font-size: 0.9rem;
-  opacity: 0.8;
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.5rem;
+}
+
+/* New section styles */
+.section {
+  padding: 1.5rem 0 1.2rem 0;
+  margin-bottom: 0.5rem;
+}
+
+/* .altBackground {
+  background-color: var(--ifm-color-emphasis-100);
+} */
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+}
+
+.featureItem {
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+  transition: box-shadow 0.2s;
+}
+
+.featureItem:hover {
+  box-shadow: 0 2px 8px var(--ifm-color-emphasis-200);
+}
+
+.pathCard {
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--ifm-card-background-color);
+  box-shadow: 0 4px 12px var(--ifm-color-emphasis-200);
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.pathCard:hover {
+  transform: translateY(-5px);
+}
+
+.resourceCard {
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+  height: 100%;
+}
+
+.resourceCard ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.resourceCard li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-100);
+}
+
+.resourceCard li:last-child {
+  border-bottom: none;
+}
+
+.testimonialCard {
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--ifm-card-background-color);
+  box-shadow: 0 4px 12px var(--ifm-color-emphasis-200);
+  height: 100%;
+  text-align: center;
+}
+
+.testimonialCard p {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.testimonialCard cite {
+  color: var(--ifm-color-emphasis-600);
+  font-style: normal;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 4rem 0;
-  }
-
   .heroTitle {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
-
+  
   .heroSubtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
-}
-
-@media screen and (max-width: 576px) {
-  .heroBanner {
-    padding: 3rem 0;
+  
+  .featureGrid {
+    grid-template-columns: 1fr;
   }
-
-  .heroTitle {
-    font-size: 2rem;
-  }
-
-  .heroSubtitle {
-    font-size: 1.1rem;
+  .heroContent {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
   }
 }

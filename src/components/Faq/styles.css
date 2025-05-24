@@ -1,0 +1,50 @@
+.faqBox {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.faqHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.faqHeader:hover {
+    background-color: #f5f5f5;
+}
+
+.faqHeader h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.faqToggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s ease;
+}
+
+.faqToggle:hover {
+    color: #333;
+}
+
+.faqAnswer {
+    padding: 0.5rem 1rem 1rem 1rem;
+    color: var(--ifm-color-primary-dark);
+    line-height: 1.5;
+}
+
+.faqAnswer p {
+    margin: 0;
+    font-weight: bold;
+}

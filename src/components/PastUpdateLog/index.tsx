@@ -43,13 +43,6 @@ export default function PastUpdateLog() {
                 {update.date}
                 </span>
             </div>
-            <p style={{ 
-                margin: 0,
-                color: 'var(--ifm-color-emphasis-700)',
-                fontSize: '0.9375rem'
-            }}>
-                {update.description}
-            </p>
             </div>
         ))}
         </div>

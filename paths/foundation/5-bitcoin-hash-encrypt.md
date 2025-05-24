@@ -1,30 +1,21 @@
 ---
-sidebar_position: 3
-pagination_prev: foundation/introduction-to-web3
-# pagination_next: foundation/learn-blockchain-basics
+sidebar_position: 5
+pagination_prev: foundation/how-this-course-will-work
+pagination_next: foundation/introduction-to-web3
 slug: /foundation/bitcoin-hash-encrypt
 ---
 <!-- 
-File: 3-bitcoin-hash-encrypt.md
+File: 2-bitcoin-hash-encrypt.md
 Description: Explains Bitcoin's origins, cryptography, and its significance.
 -->
 
-# Bitcoin Origins: Why It Was Created
+# Bitcoin 2.0 -- Origins and Why It Was Created
 
 ### Introduction
 
 Bitcoin, the first cryptocurrency and blockchain to truly make it global from its predecessors. Yes, Bitcoin in fact was not the first cryptocurrency and there were other cryptocurrencies that had existed in the 1980s, projects like eCash, B-money, and HashCash. But they failed due to many technical and social issues which led to them never taking off. It wasn't until 2008, a pseudonymous going by the name "Satoshi Nakamoto" released Bitcoin that has then helped revolutionize digital currency.
 
 By the end of this lesson, we'll understand when and why Bitcoin was created, the motivation behind the project, and the key mechanisms that helped Bitcoin grow into a $2.6 trillion industry [(as of April 18, 2025)](https://coinmarketcap.com/crypto-heatmap/).
-
----
-> Cryptocurrency: A digital form of money that exists only online
----
-> Blockchain: A digital notebook that records all cryptocurrency transactions that's public for everyone to view.
----
-> I reviewed these two words in the previous lesson if interested, though no need to memorize what they mean, as we'll get into more details later.
-
----
 
 ### Lesson Overview
 

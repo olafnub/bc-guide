@@ -1,19 +1,20 @@
 {
     "recent": [
         {
-            "date": "April 20, 2025",
-            "title": "Added Bitcoin explanation",
-            "description": "Detailed explanations about Bitcoin, cryptography, and the 2008 financial crisis."
+            "date": "May 07, 2025",
+            "title": "Bullied Cursor into remaking the front-end"
         },
         {
             "date": "April 20, 2025",
-            "title": "Edits to Web3 introduction",
-            "description": "Added detailed explanations about Web3, blockchain, and cryptography."
+            "title": "Added Bitcoin explanation"
         },
         {
             "date": "April 20, 2025",
-            "title": "Create the introduction to the curriculum",
-            "description": "Added an introduction to the curriculum with a clear structure and learning objectives."
+            "title": "Made edits to Web3 introduction"
+        },
+        {
+            "date": "April 20, 2025",
+            "title": "Create the introduction to the curriculum"
         }
     ]
 }

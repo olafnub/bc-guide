@@ -3,9 +3,11 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import PastUpdateLog from '@site/src/components/PastUpdateLog';
+import Faq from '@site/src/components/Faq';
+import FAQ from '../components/Faq/QNA.json';
 
 import styles from './index.module.css';
 
@@ -29,11 +31,6 @@ const StartLearnButton = () => {
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-
-  // fetch("http://localhost:3000/api")
-  // .then(res => res.json())
-  // .then(data => console.log(data))
-  // .catch(err => console.log(err))
   
   return (
     <header className={clsx('hero', styles.heroBanner)}>
@@ -53,6 +50,54 @@ function HomepageHeader() {
   );
 }
 
+function WhyWeb3Section() {
+  return (
+    <section className={clsx('padding-vert--xl', styles.section)}>
+      <div className="container">
+        <div className="row">
+          <div className="col col--8 col--offset-2">
+            <h2 className="text--center">Why Learn Web3?</h2>
+            <p className="text--center">
+              Web3 represents the next evolution of the internet, combining blockchain technology, 
+              decentralized applications, and digital ownership. As a student, understanding Web3 
+              opens doors to emerging career opportunities in software engineering, marketing, law, finance, and more.
+              Quick terms: 
+            </p>
+            <div className={styles.featureGrid}>
+              <div className={styles.featureItem}>
+                <h3>Crypto</h3>
+                <p>Online currency that can be transferred anywhere and anytime around the world, using blockchain technology.</p>
+              </div>
+              <div className={styles.featureItem}>
+                <h3>Blockchain</h3>
+                <p>It's code that tracks all transactions done with cryptocurrency, meaning every buy, sell, and sends are public and on the blockchain.</p>
+              </div>
+              <div className={styles.featureItem}>
+                <h3>Web3</h3>
+                <p>Web1.0 and Web2.0 have been a thing since 1994, Web3.0 is said to be the next stage of the internet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection() {
+  const faqList = FAQ.faq;
+  return (
+    <section className="container">
+      <h3>FAQ</h3>
+      <div>
+        {faqList.map(curr => (
+          <Faq question={curr.question} answer={curr.answer} />
+        ))}
+      </div>
+    </section>
+  )
+}
+
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -62,9 +107,9 @@ export default function Home(): ReactNode {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <WhyWeb3Section />
+        <FaqSection />
         <PastUpdateLog />
-        <StartLearnButton />
       </main>
     </Layout>
   );

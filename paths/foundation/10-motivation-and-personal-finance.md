@@ -11,3 +11,4 @@ Description: Growth Mindset and Personal Finance
 
 Before you move on from this course and going onto exploring your web3 path, we would like to just say some final things that we believe will help you in the long run. This lesson will be less focused on web3 but instead your personal growth (growth mindset) to help you grow in life and a bit of traditional finance (index funds, etfs, etc.)
 
+- [Motivation and Mindset](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset)

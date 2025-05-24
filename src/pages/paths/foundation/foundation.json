@@ -7,12 +7,12 @@
         "courseTitle": "How This Course Will Work"
       },
       {
-        "href": "/paths/foundation/introduction-to-web3",
-        "courseTitle": "Introduction to Web3"
+        "href": "/paths/foundation/bitcoin-1-0",
+        "courseTitle": "Bitcoin 1.0: The Beginning"
       },
       {
-        "href": "/paths/foundation/bitcoin-hash-encrypt",
-        "courseTitle": "Where It All Started: Bitcoin"
+        "href": "/paths/foundation/introduction-to-web3",
+        "courseTitle": "Introduction to Web3"
       }
     ]
   },

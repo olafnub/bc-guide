@@ -57,13 +57,14 @@ const config: Config = {
             'https://github.com/BrainEater-Io/BrainEater',
         },
         blog: {
+          blogSidebarCount: 0,
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
           editUrl:
-            'https://github.com/BrainEater-Io/BrainEater',
+            'https://github.com/BrainEater-Io/BrainEater/blogs',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -86,8 +87,8 @@ const config: Config = {
       items: [
         // {to: '/create-a-post', label: 'Blog', position: 'right'},
         {to: '/paths', label: 'All Paths', position: 'right'},
-        {to: '/funzies', label: 'Funzies', position: 'right'},
-        // {to: '/blog', label: 'Blog', position: 'right'},
+        // {to: '/funzies', label: 'Funzies', position: 'right'},
+        {to: '/blog', label: 'Blog', position: 'right'},
         {to: '/contribute', label: 'Contribute', position: 'right'},
 
       ],

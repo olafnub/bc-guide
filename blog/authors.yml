@@ -1,8 +1,8 @@
 olafnub:
-  name: Andy Li
-  title: Incoming Software Engineer Intern @ Coinbase
+  name: olafnub
+  title: Growth @ UMN Blockchain Club
   url: https://github.com/olafnub
-  image_url: https://github.com/olafnub.png
+  image_url: https://pbs.twimg.com/profile_images/1826036059580301312/QwvOYa6m_400x400.jpg
   page: 
     true
     # customize the url of the author page at /blog/authors/<permalink>
@@ -10,6 +10,21 @@ olafnub:
   socials:
     x: 360beez
     github: olafnub
+    # linkedin: andyli2026
+    # newsletter: https://thisweekinreact.com
+
+b1gturk:
+  name: Turk
+  title: Developer Lead @ Dalhousie Blockchain
+  # url: https://github.com/olafnub
+  image_url: https://pbs.twimg.com/profile_images/1902175798561243136/TZYkotyH_400x400.jpg
+  page: 
+    true
+    # customize the url of the author page at /blog/authors/<permalink>
+    # permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: Epicentral_Turk
+    # github: olafnub
     # linkedin: andyli2026
     # newsletter: https://thisweekinreact.com
 
