@@ -1,11 +1,11 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 pagination_prev: foundation/what-are-cryptocurrencies
 pagination_next: foundation/intro-to-ethereum
 slug: /foundation/sending-and-receiving-crypto
 ---
 <!-- 
-File: 7-sending-and-receiving-crypto.md
+File: 8-sending-and-receiving-crypto.md
 Description: Guide to blockchain transactions, gas fees, and block explorers.
 -->
 # Sending & Receiving Crypto, aka Transactions

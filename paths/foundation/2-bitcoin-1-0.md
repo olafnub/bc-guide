@@ -4,6 +4,10 @@ pagination_prev: foundation/how-this-course-will-work
 pagination_next: foundation/introduction-to-web3
 slug: /foundation/bitcoin-1-0
 ---
+<!-- 
+File: 2-bitcoin-1-0
+Description: Introduction to basics of bitcoin, and blockchain
+-->
 
 # Bitcoin 1.0
 
@@ -50,14 +54,14 @@ Apps such as PayPal, Venmo, and centralized banks already do this, recording tra
 ### Only 21 Million Bitcoin will exist
 What's cool about Bitcoin is that there will only ever be 21 million in supply, meaning the amount of bitcoin to ever exist is fixed. It was made in the mind to combat inflation since bitcoin can also be used as a currency. There's about 20 million bitcoins in the public that people can trade with, and there's 1 million still left unmined and untouched. 
 
-This leads to the 4 year cycle of bitcoin as the supply of it gets harder and harder to mine. When talking about "mining", visualize a bunch of computers bundling up transactions and running a program to do a math computation. This math computation is tough and needs a lot of computing power, hence the energy arugment of Bitcoin being non-eco friendly. When bitcoin miners solve the problem, they get compenstated with bitcoins, this is known as adding a block to the blockchain.
+This leads to the 4-year cycle of bitcoin as the supply of it gets harder and harder to mine. When talking about "mining," visualize a bunch of computers bundling up transactions and running a program to do a math computation. This math computation is tough and needs a lot of computing power, hence the energy argument of Bitcoin being non-eco-friendly. When bitcoin miners solve the problem, they get compensated with bitcoins, this is known as adding a block to the blockchain.
 
-A "blockchain" is just a set of transactions. From the examples way above, we'd have Alice's transaction to Bob and many more from other people. Sets of these transactions are bundled up into a "block", then when new transactions occur, you bundle those transactions into a "block" and then connect the blocks together. Ever new block is connected to the previous block, hence the word, "blockchain"; a bunch of blocks connected in a chain, each block containing a bunch of transactions.
+A "blockchain" is just a set of transactions. From the examples way above, we'd have Alice's transaction to Bob and many more from other people. Sets of these transactions are bundled up into a "block", then when new transactions occur, you bundle those transactions into a "block" and then connect the blocks together. Every new block is connected to the previous block, hence the word, "blockchain"; a bunch of blocks connected in a chain, each block containing a bunch of transactions.
 
-Bitcoin mining gets harder overtime because of the pre-determined code Satoshi wrote, after 210,000 blocks mined (approx. 4 years) the reward for bitcoin gets cut in half. The block reward for each block mined was 50 bitcoins, then after 210,000 blocks later, the reward gets slashed to 25 bitcoins for each block mined. Again, why any of this happens is because of Satoshi, and the program known as Bitcoin that Satoshi decided to write. It's all preset and is open-source for anyone to see.
+Bitcoin mining gets harder overtime because of the predetermined code Satoshi wrote; after 210,000 blocks mined (approx. 4 years) the reward for bitcoin gets cut in half. The block reward for each block mined was 50 bitcoins, then after 210,000 blocks later, the reward gets slashed to 25 bitcoins for each block mined. Again, why any of this happens is because of Satoshi and the program Bitcoin that Satoshi wrote. It's all preset and is open-source for anyone to see.
 
 ### The $1.1 Billion Pizza Purchase
-For funzies: On May 22, 2010, Laszlo Hanyecz paid 10,000 bitcoin for two Papa John's pizza. At the time it was worth about $41. There's now a Bitcoin pizza day to celebrate, and there's a group on discord that hosts Bitcoin pizza day meetups across major cities around the world.
+For funzies: On May 22, 2010, Laszlo Hanyecz paid 10,000 bitcoin for two Papa John's pizzas. At the time, it was worth about $41. There's now a Bitcoin Pizza Day to celebrate, and there's a group on Discord that hosts Bitcoin Pizza Day meetups across major cities around the world.
 
 ### Assignment
 

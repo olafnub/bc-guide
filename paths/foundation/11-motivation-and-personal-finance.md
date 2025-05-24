@@ -1,11 +1,11 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 pagination_prev: foundation/modern-blockchains-2020s
 pagination_next: foundation/career-in-web3
 slug: /foundation/motivation-and-personal-finance
 ---
 <!-- 
-File: 10-motivation-and-personal-finance
+File: 11-motivation-and-personal-finance
 Description: Growth Mindset and Personal Finance
 -->
 
