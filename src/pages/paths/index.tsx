@@ -21,7 +21,7 @@ export default function AllPaths() {
                                 <h2>Blockchain Basics</h2>
                                 <p>
                                     The foundation course is not to teach you A-Z of what blockchain and web3 is but instead 
-                                    to give you a quick overview of what topics you'll come across in the future, and to also
+                                    to give you a quick overview of what topics you'll come across in the future and to also
                                     familiarize you with terms used in the industry. Learning the foundation will help you with more
                                     niche topics in the future.
                                 </p>
