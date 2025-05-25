@@ -35,7 +35,7 @@ Fun Fact: If we were to look back at the very first message that was mined on Bi
 
 _Fun Fact #2: To this day, Satoshi Nakamoto's identity is unknown. People speculate that it could be one person, a group of people, an organization/government, or even the CIA that is responsible. But the truth still is and will most likely remain unknown to the general public indefinitely._
 
-### Bitcoin What & Why
+### Bitcoin What and Why
 
 Another major innovation that came with Bitcoin was preventing double-spending, a problem in the digital currency space. For example: 
 
@@ -47,7 +47,7 @@ But that's where Bitcoin comes in; it introduced preventing double-spending with
 
 A great way to visualize how Bitcoin works and what a consensus mechanism is is to pretend in a room of students, Alice and Bob are at the front of the room. Alice hands money to Bob, and everyone in the room sees this; each student then writes the transaction onto their notepad, agreeing that Alice indeed paid Bob. The original students then go around the school and tell everyone that this transaction happened, and then everyone in the school tells other schools, cities, and states. Time passes, and the entire world knows that Alice paid Bob. This is a "consensus" since everyone agrees Alice paid Bob $20 and the world moves on. Bitcoin is the underlying money but also technology is brought, allowing people like you and me to prove transactions, without the need for a bank.
 
-Apps such as PayPal, Venmo, and centralized banks already do this, recording transactions and keeping everyone's money, but the problem arises when these centralized entities stop working or go bankrupt (2008 financial crisis). Bitcoin is the solution to this!
+Apps such as PayPal, Venmo, and centralized banks already do this, recording transactions and keeping everyone's money, but the problem arises when these centralized entities stop working or go bankrupt (2008 financial crisis). Bitcoin and decentralization is the solution to this!
 
 > To wrap up, _Bitcoin solved the **double-spending problem** and allowed peer-to-peer (person-to-person) transactions without the need for a central entity or bank._
 
@@ -82,9 +82,9 @@ _Bonus: Bitcoin is both a blockchain: "Bitcoin" and cryptocurrency: "bitcoin". I
 
 <div class="lesson-content__conclusion" markdown="1">
 
-- What problem does Bitcoin solve that [digital money couldn't before?](#bitcoin-how)
-- [Are functions and methods the same?](#cryptography)
-- [Bitcoin's limited supply](#bitcoin-what-pt2)
+- [What fancy term does consensus mechanism describe](#Bitcoin-What-and-Why)
+- [What inovation does Bitcoin bring?](#Bitcoin-What-and-Why)
+- [Bitcoin's limited supply](#Only-21-Million-Bitcoin-will-exist)
 
 </div>
 
@@ -94,7 +94,6 @@ _Bonus: Bitcoin is both a blockchain: "Bitcoin" and cryptocurrency: "bitcoin". I
 
 - [Why Warren Buffett Said No to Lehman and AIG in 2008](https://youtu.be/1QeUcfqkUzc?si=aNvUmrO7qBv8nbIv)
 - [How Secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=B5DEaX_cI8n-M9CF) (a fun watch even it's hard to understand)
-- [Were there cryptocurrencies before Bitcoin?](https://www.investopedia.com/tech/were-there-cryptocurrencies-bitcoin/)
 - [Bitcoin supply distribution between exchanges, individuals, and lost BTC](https://www.ainvest.com/news/individuals-hold-69-bitcoin-supply-institutions-scramble-2502/)
 - [How the Bitcoin Protocol Actually Works](https://michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/) is a great read (don't let the scrollbar fool you)
 - Read the abstract of [Bitcoin’s whitepaper](https://bitcoin.org/bitcoin.pdf)
