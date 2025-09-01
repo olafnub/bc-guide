@@ -35,7 +35,7 @@ export default function AllPaths() {
                     </div>
                 </div>
                 {/* Row 2: Two smaller cards */}
-                <div className="row">
+{/*                 <div className="row">
                     <div className="col col--6">
                         <div className="card shadow--md">
                             <div className="card__image">
@@ -75,7 +75,7 @@ export default function AllPaths() {
                                 <button className="button button--primary button--block" disabled>Coming...</button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Layout>
