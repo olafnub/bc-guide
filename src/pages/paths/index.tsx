@@ -76,7 +76,7 @@ export default function AllPaths() {
                             </div>
                         </div>
                     </div> */}
-                </div>
+{/*                 </div> */}
             </div>
         </Layout>
     );
