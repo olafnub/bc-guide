@@ -97,11 +97,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Get Started',
           items: [
             {
-              label: 'Get Started',
+              label: '1: How this course will work',
               to: '/paths/foundation/how-this-course-will-work',
+            },
+            {
+              label: '2: Bitcoin 1.0',
+              to: '/paths/foundation/bitcoin-1-0',
+            },
+            {
+              label: '3: Intro to Web3',
+              to: '/paths/foundation/introduction-to-web3',
             },
           ],
         },
@@ -113,8 +121,12 @@ const config: Config = {
               href: 'https://t.me/collegedao',
             },
             {
-              label: 'CollegeDAO X',
-              href: 'https://x.com/collegedao_hub',
+              label: 'Midwest University Telegram',
+              href: 'https://t.me/2567423207/1',
+            },
+            {
+              label: 'BrainEater X',
+              href: 'https://x.com/yourweb3brain',
             },
           ],
         },

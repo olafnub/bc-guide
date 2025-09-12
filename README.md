@@ -1,6 +1,24 @@
-# Tools
+# Blockchain Guide
+## Tools
 - [Docusaurus](https://docusaurus.io/) for generator the website.
 - [Infima](https://infima.dev/) for styling (comes with Docusaurs).
 - [DoTown](https://dotown.maeda-design-room.net/) for free pixel SVGs.
 - [Docusaurus Guide](https://github.com/CodeSnaps/docusaurus-guide/blob/main/docs/getting%20started/markdown.md?plain=1)
 - [Lesson template](https://github.com/TheOdinProject/curriculum/blob/main/templates/lesson-example.md)
+
+## How to Setup
+1. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm start
+   # or
+   pnpm start
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser

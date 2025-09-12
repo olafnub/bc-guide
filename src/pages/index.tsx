@@ -5,7 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import PastUpdateLog from '@site/src/components/PastUpdateLog';
+// import PastUpdateLog from '@site/src/components/PastUpdateLog';
 import Faq from '@site/src/components/Faq';
 import FAQ from '../components/Faq/QNA.json';
 
@@ -98,6 +98,59 @@ function FaqSection() {
   )
 }
 
+function WhatWellLearnSection() {
+  return (
+    <section className={clsx('padding-vert--xl', styles.section)}>
+      <div className="container">
+        <div className="row">
+          <div className="col col--10 col--offset-1">
+            <h2 className="text--center margin-bottom--lg">What We'll Learn</h2>
+            <div className="row">
+              <div className="col col--4">
+                <div className="card">
+                  <div className="card__header">
+                    <h3>🔗 Blockchain Basics</h3>
+                  </div>
+                  <div className="card__body">
+                    <p>Understand how blockchain technology works, including consensus mechanisms, cryptography, and distributed systems.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col col--4">
+                <div className="card">
+                  <div className="card__header">
+                    <h3>💰 Cryptocurrency</h3>
+                  </div>
+                  <div className="card__body">
+                    <p>Learn about Bitcoin, Ethereum, and other cryptocurrencies, including how to send, receive, and store them safely.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col col--4">
+                <div className="card">
+                  <div className="card__header">
+                    <h3>🌐 Web3 Development</h3>
+                  </div>
+                  <div className="card__body">
+                    <p>Build decentralized applications (dApps), smart contracts, and explore the Web3 ecosystem and tools.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="text--center margin-top--lg">
+              <Link
+                className="button button--primary button--lg"
+                to="/paths">
+                Start Learning
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -109,7 +162,9 @@ export default function Home(): ReactNode {
       <main>
         <WhyWeb3Section />
         <FaqSection />
-        <PastUpdateLog />
+        <WhatWellLearnSection />
+        
+        {/* <PastUpdateLog /> */}
       </main>
     </Layout>
   );
