@@ -7,3 +7,8 @@ guide-post:
   label: guides
   permalink: /guide-posts
   description: Industry or hobby related guides
+
+internship-guide:
+  label: internships
+  permalink: /internship-guides
+  description: Guides on how to get internships and succeed in them

@@ -117,16 +117,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
+              label: 'BrainEater X',
+              href: 'https://x.com/yourweb3brain',
+            },
+            {
               label: 'CollegeDAO Telegram',
               href: 'https://t.me/collegedao',
             },
             {
               label: 'Midwest University Telegram',
               href: 'https://t.me/2567423207/1',
-            },
-            {
-              label: 'BrainEater X',
-              href: 'https://x.com/yourweb3brain',
             },
           ],
         },

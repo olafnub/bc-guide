@@ -1,9 +1,11 @@
 ---
 slug: welcome-blog
-title: About this Project
+title: Welcome
 authors: [olafnub]
 tags: [first-post]
 ---
+
+Learn more about this project
 
 <!-- truncate -->
 
