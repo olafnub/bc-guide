@@ -21,7 +21,19 @@ const colleges = [
     name: 'Illini Blockchain',
     image: 'https://cdn-images-1.medium.com/max/280/1*z7_fWm1Ioy5s2W1-H2TK3w@2x.png',
     social: 'https://illiniblockchain.com/'
-  }
+  },
+  {
+    name: 'Titan Blockchain',
+    image: 'https://pbs.twimg.com/profile_images/1884097937019383808/SBTgA62Y_400x400.jpg',
+    social: 'https://x.com/CSUFBlockchain',
+  },
+  {
+    name: 'Midwest Blockchain Conference',
+    image: 'https://pbs.twimg.com/profile_images/1807516634539597824/YAr0BGVk_400x400.jpg',
+    social: 'https://x.com/MBC_Conference',
+  },
+
+  
 
   // { name: 'Blockchain at Berkeley', image: '/img/universities/berkeley.png' },
   // { name: 'SMU Blockchain Club', image: '/img/universities/smu.png' },
@@ -44,15 +56,7 @@ export default function CoreContributors() {
   return (
     <section className={clsx('padding-vert--xl')}>
       <div className="container text--center">
-        <h2 className="hero__title">Organizations Involved</h2>
-        {/* <div className={styles.filters}>
-          {filters.map((f) => (
-            <button key={f} className={clsx('button button--secondary button--sm', styles.filterButton)}>
-              {f}
-            </button>
-          ))}
-        </div> */}
-
+        <p className="hero__title">Organizations we've chatted with</p>
         <div className={styles.logoGrid}>
           {colleges.map(({ name, image, social }) => (
             <div key={name} className={styles.logoItem}>
