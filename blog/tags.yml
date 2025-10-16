@@ -8,6 +8,11 @@ guide-post:
   permalink: /guide-posts
   description: Industry or hobby related guides
 
+web3-ideas:
+  label: web3-ideas
+  permalink: /web3-topics
+  description: Posts about web3, blockchain, crypto, and related topics
+
 internship-guide:
   label: internships
   permalink: /internship-guides

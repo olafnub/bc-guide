@@ -1,5 +1,5 @@
 <!-- ---
-sidebar_position: 2
+: 2
 pagination_prev: foundation/how-this-course-will-work
 pagination_next: foundation/learn-blockchain-basics
 --- -->

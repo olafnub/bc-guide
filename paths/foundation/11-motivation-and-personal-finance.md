@@ -1,5 +1,4 @@
 ---
-sidebar_position: 11
 pagination_prev: foundation/modern-blockchains-2020s
 pagination_next: foundation/career-in-web3
 slug: /foundation/motivation-and-personal-finance

@@ -1,5 +1,5 @@
 <!-- ---
-sidebar_position: 5
+: 5
 pagination_next: foundation/consensus-mechanisms
 --- -->
 

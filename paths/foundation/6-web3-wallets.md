@@ -1,5 +1,4 @@
 ---
-sidebar_position: 6
 pagination_prev: foundation/bitcoin-hash-encrypt
 pagination_next: foundation/what-are-cryptocurrencies
 slug: /foundation/web3-wallets

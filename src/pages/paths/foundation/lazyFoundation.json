@@ -1,0 +1,22 @@
+[{
+    "title": "Introduction",
+    "courses": [
+      {
+        "href": "/paths/foundation/how-this-course-will-work",
+        "courseTitle": "How This Course Will Work"
+      },
+      {
+        "href": "/paths/foundation/traditional-finance",
+        "courseTitle": "Traditional Finance"
+      },
+      {
+        "href": "/paths/foundation/bitcoin-1-0",
+        "courseTitle": "Bitcoin 1.0: The Beginning"
+      },
+      {
+        "href": "/paths/foundation/introduction-to-web3",
+        "courseTitle": "Introduction to Web3"
+      }
+    ]
+}
+]

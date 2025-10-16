@@ -1,5 +1,4 @@
 ---
-sidebar_position: 4
 pagination_prev: foundation/bitcoin-hash-encrypt
 pagination_next: foundation/web3-wallets
 slug: /foundation/learn-blockchain-basics

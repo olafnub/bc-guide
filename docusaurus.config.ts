@@ -86,7 +86,7 @@ const config: Config = {
       },
       items: [
         // {to: '/create-a-post', label: 'Blog', position: 'right'},
-        {to: '/paths', label: 'All Paths', position: 'right'},
+        // {to: '/paths', label: 'All Paths', position: 'right'},
         // {to: '/funzies', label: 'Funzies', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
         {to: '/contribute', label: 'Contribute', position: 'right'},
@@ -117,16 +117,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'BrainEater X',
-              href: 'https://x.com/yourweb3brain',
+              label: 'Twitter',
+              href: 'https://x.com/braineaterio',
             },
             {
-              label: 'CollegeDAO Telegram',
+              label: 'CollegeDAO tg',
               href: 'https://t.me/collegedao',
             },
             {
-              label: 'Midwest University Telegram',
-              href: 'https://t.me/2567423207/1',
+              label: 'Midwest University tg',
+              href: 'https://t.me/c/2567423207/1',
             },
           ],
         },

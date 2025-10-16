@@ -29,7 +29,7 @@ const colleges = [
   },
   {
     name: 'Midwest Blockchain Conference',
-    image: 'https://pbs.twimg.com/profile_images/1807516634539597824/YAr0BGVk_400x400.jpg',
+    image: 'https://pbs.twimg.com/profile_images/1969818970942304256/xbfhJr7A_400x400.jpg',
     social: 'https://x.com/MBC_Conference',
   },
 

@@ -1,11 +1,10 @@
 ---
-sidebar_position: 2
-pagination_prev: foundation/how-this-course-will-work
+pagination_prev: foundation/traditional-finance
 pagination_next: foundation/introduction-to-web3
 slug: /foundation/bitcoin-1-0
 ---
 <!-- 
-File: 2-bitcoin-1-0
+File: 3-bitcoin-1-0
 Description: Introduction to basics of bitcoin, and blockchain
 -->
 

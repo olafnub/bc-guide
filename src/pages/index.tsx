@@ -22,7 +22,7 @@ const StartLearnButton = () => {
     <div className={styles.buttons}>
       <Link
         className="button button--primary button--lg"
-        to="/paths">
+        to="/paths/foundation">
         Start Learning
       </Link>
     </div>
@@ -140,7 +140,7 @@ function WhatWellLearnSection() {
             <div className="text--center margin-top--lg">
               <Link
                 className="button button--primary button--lg"
-                to="/paths">
+                to="/paths/foundation">
                 Start Learning
               </Link>
             </div>

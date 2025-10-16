@@ -1,5 +1,4 @@
 ---
-sidebar_position: 7
 pagination_prev: foundation/web3-wallets
 pagination_next: foundation/sending-and-receiving-crypto
 slug: /foundation/what-are-cryptocurrencies

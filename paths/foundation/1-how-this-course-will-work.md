@@ -1,6 +1,5 @@
 ---
-sidebar_position: 1
-pagination_next: foundation/bitcoin-1-0
+pagination_next: foundation/traditional-finance
 slug: /foundation/how-this-course-will-work
 ---
 <!-- 
@@ -80,7 +79,9 @@ The questions below are an opportunity to reflect on key topics in this lesson. 
 
 <div class="lesson-content__conclusion" markdown="1">
 
+- [LearnWeb3](https://learnweb3.io/), this is such a goated guide. Pick & choose any that you're interested in
 - Check out [The Odin Project](https://www.theodinproject.com/lessons/foundations-how-this-course-will-work) if you'd like to get into web development.
 - [Illini Blockchain Club Resource](https://illiniblockchain.com/learning) has a great guide in Web3 as well
 - [Blockchain developer roadmap](https://roadmap.sh/blockchain) for those interested in the development path
+- Check out twitter and search up web3 learning series. People do challenges and you could pick up their roadmap
 </div>

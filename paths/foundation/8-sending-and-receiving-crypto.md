@@ -1,5 +1,4 @@
 ---
-sidebar_position: 8
 pagination_prev: foundation/what-are-cryptocurrencies
 pagination_next: foundation/intro-to-ethereum
 slug: /foundation/sending-and-receiving-crypto

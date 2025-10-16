@@ -1,5 +1,4 @@
 ---
-sidebar_position: 10
 pagination_prev: foundation/intro-to-ethereum
 pagination_next: foundation/motivation-and-personal-finance
 slug: /foundation/modern-blockchains-2020s

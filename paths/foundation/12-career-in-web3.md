@@ -1,5 +1,4 @@
 ---
-sidebar_position: 12
 pagination_prev: foundation/motivation-and-personal-finance
 # pagination_next: foundation/blockchain-102
 slug: /foundation/career-in-web3

@@ -1,5 +1,4 @@
 ---
-sidebar_position: 5
 pagination_prev: foundation/how-this-course-will-work
 pagination_next: foundation/introduction-to-web3
 slug: /foundation/bitcoin-hash-encrypt

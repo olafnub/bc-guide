@@ -27,3 +27,18 @@ b1gturk:
     # github: olafnub
     # linkedin: andyli2026
     # newsletter: https://thisweekinreact.com
+
+phillip:
+  name: Phillip
+  title: SWE @ 0x, prev @ Coinbase
+  # url: https://github.com/olafnub
+  image_url: https://pbs.twimg.com/profile_images/1496716944828993537/MEFLSk8b_400x400.jpg
+  page: 
+    true
+    # customize the url of the author page at /blog/authors/<permalink>
+    # permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: PhillipYan2
+    # github: olafnub
+    # linkedin: andyli2026
+    # newsletter: https://thisweekinreact.com

@@ -1,5 +1,5 @@
 <!-- ---
-sidebar_position: 4
+: 4
 pagination_prev: foundation/learn-blockchain-basics
 pagination_next: foundation/bitcoin-origins
 --- -->
