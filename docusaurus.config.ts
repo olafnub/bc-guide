@@ -126,7 +126,7 @@ const config: Config = {
             },
             {
               label: 'Midwest University tg',
-              href: 'https://t.me/c/2567423207/1',
+              href: 'https://t.me/+RhXasp7QQAcyZTFh',
             },
           ],
         },
